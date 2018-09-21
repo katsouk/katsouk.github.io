@@ -1,4 +1,4 @@
-var map; 
+var map;  
 var pointarray;
 var heatmap;
 var MY_MAPTYPE_ID = 'custom_style';
