@@ -1,0 +1,1611 @@
+var newyork = {
+    "meta" : {
+      "view" : {
+        "id" : "qb7u-rbmr",
+        "name" : "NYC crime",
+        "attribution" : "Police Department (NYPD)",
+        "averageRating" : 0,
+        "category" : "Public Safety",
+        "createdAt" : 1494126588,
+        "description" : "This dataset includes all valid felony, misdemeanor, and violation crimes reported to the New York City Police Department (NYPD) for all complete quarters so far this year (2017). For additional details, please see the attached data dictionary in the ‘About’ section.",
+        "displayType" : "table",
+        "downloadCount" : 190,
+        "hideFromCatalog" : false,
+        "hideFromDataJson" : false,
+        "indexUpdatedAt" : 1536847304,
+        "newBackend" : false,
+        "numberOfComments" : 0,
+        "oid" : 28986226,
+        "provenance" : "community",
+        "publicationAppendEnabled" : false,
+        "publicationDate" : 1501708020,
+        "publicationGroup" : 13877134,
+        "publicationStage" : "published",
+        "rowsUpdatedAt" : 1528395231,
+        "rowsUpdatedBy" : "5fuc-pqz2",
+        "tableId" : 15257377,
+        "totalTimesRated" : 0,
+        "viewCount" : 1091,
+        "viewLastModified" : 1494129087,
+        "viewType" : "tabular",
+        "columns" : [ {
+          "id" : -1,
+          "name" : "sid",
+          "dataTypeName" : "meta_data",
+          "fieldName" : ":sid",
+          "position" : 0,
+          "renderTypeName" : "meta_data",
+          "format" : { },
+          "flags" : [ "hidden" ]
+        }, {
+          "id" : -1,
+          "name" : "id",
+          "dataTypeName" : "meta_data",
+          "fieldName" : ":id",
+          "position" : 0,
+          "renderTypeName" : "meta_data",
+          "format" : { },
+          "flags" : [ "hidden" ]
+        }, {
+          "id" : -1,
+          "name" : "position",
+          "dataTypeName" : "meta_data",
+          "fieldName" : ":position",
+          "position" : 0,
+          "renderTypeName" : "meta_data",
+          "format" : { },
+          "flags" : [ "hidden" ]
+        }, {
+          "id" : -1,
+          "name" : "created_at",
+          "dataTypeName" : "meta_data",
+          "fieldName" : ":created_at",
+          "position" : 0,
+          "renderTypeName" : "meta_data",
+          "format" : { },
+          "flags" : [ "hidden" ]
+        }, {
+          "id" : -1,
+          "name" : "created_meta",
+          "dataTypeName" : "meta_data",
+          "fieldName" : ":created_meta",
+          "position" : 0,
+          "renderTypeName" : "meta_data",
+          "format" : { },
+          "flags" : [ "hidden" ]
+        }, {
+          "id" : -1,
+          "name" : "updated_at",
+          "dataTypeName" : "meta_data",
+          "fieldName" : ":updated_at",
+          "position" : 0,
+          "renderTypeName" : "meta_data",
+          "format" : { },
+          "flags" : [ "hidden" ]
+        }, {
+          "id" : -1,
+          "name" : "updated_meta",
+          "dataTypeName" : "meta_data",
+          "fieldName" : ":updated_meta",
+          "position" : 0,
+          "renderTypeName" : "meta_data",
+          "format" : { },
+          "flags" : [ "hidden" ]
+        }, {
+          "id" : -1,
+          "name" : "meta",
+          "dataTypeName" : "meta_data",
+          "fieldName" : ":meta",
+          "position" : 0,
+          "renderTypeName" : "meta_data",
+          "format" : { },
+          "flags" : [ "hidden" ]
+        }, {
+          "id" : 362578720,
+          "name" : "CMPLNT_NUM",
+          "dataTypeName" : "number",
+          "fieldName" : "cmplnt_num",
+          "position" : 1,
+          "renderTypeName" : "number",
+          "tableColumnId" : 39763946,
+          "width" : 178,
+          "cachedContents" : {
+            "largest" : "983019217",
+            "non_null" : 95,
+            "average" : "516783786.8",
+            "null" : 0,
+            "top" : [ {
+              "item" : "858468480",
+              "count" : 20
+            }, {
+              "item" : "916387187",
+              "count" : 19
+            }, {
+              "item" : "892822562",
+              "count" : 18
+            }, {
+              "item" : "277173491",
+              "count" : 17
+            }, {
+              "item" : "287419898",
+              "count" : 16
+            }, {
+              "item" : "424029434",
+              "count" : 15
+            }, {
+              "item" : "142017490",
+              "count" : 14
+            }, {
+              "item" : "474897504",
+              "count" : 13
+            }, {
+              "item" : "695277773",
+              "count" : 12
+            }, {
+              "item" : "139829439",
+              "count" : 11
+            }, {
+              "item" : "194247516",
+              "count" : 10
+            }, {
+              "item" : "222080635",
+              "count" : 9
+            }, {
+              "item" : "870344960",
+              "count" : 8
+            } ],
+            "smallest" : "100477752",
+            "sum" : "49094459746"
+          },
+          "format" : {
+            "precisionStyle" : "standard",
+            "noCommas" : "true",
+            "align" : "right"
+          }
+        }, {
+          "id" : 362578723,
+          "name" : "CMPLNT_FR_DT",
+          "dataTypeName" : "calendar_date",
+          "fieldName" : "cmplnt_fr_dt",
+          "position" : 2,
+          "renderTypeName" : "calendar_date",
+          "tableColumnId" : 39763947,
+          "width" : 178,
+          "cachedContents" : {
+            "largest" : "2016-12-26T00:00:00",
+            "non_null" : 95,
+            "null" : 0,
+            "top" : [ {
+              "item" : "2016-06-01T00:00:00",
+              "count" : 20
+            }, {
+              "item" : "2016-09-01T00:00:00",
+              "count" : 19
+            }, {
+              "item" : "2016-11-01T00:00:00",
+              "count" : 18
+            }, {
+              "item" : "2016-12-01T00:00:00",
+              "count" : 17
+            }, {
+              "item" : "2016-07-01T00:00:00",
+              "count" : 16
+            }, {
+              "item" : "2016-01-01T00:00:00",
+              "count" : 15
+            }, {
+              "item" : "2016-05-01T00:00:00",
+              "count" : 14
+            }, {
+              "item" : "2016-03-02T00:00:00",
+              "count" : 13
+            }, {
+              "item" : "2016-08-19T00:00:00",
+              "count" : 12
+            }, {
+              "item" : "2016-02-29T00:00:00",
+              "count" : 11
+            }, {
+              "item" : "2016-12-05T00:00:00",
+              "count" : 10
+            }, {
+              "item" : "2016-02-01T00:00:00",
+              "count" : 9
+            }, {
+              "item" : "2016-08-01T00:00:00",
+              "count" : 8
+            }, {
+              "item" : "2016-06-16T00:00:00",
+              "count" : 7
+            }, {
+              "item" : "2016-01-28T00:00:00",
+              "count" : 6
+            }, {
+              "item" : "2016-11-18T00:00:00",
+              "count" : 5
+            }, {
+              "item" : "2016-05-05T00:00:00",
+              "count" : 4
+            }, {
+              "item" : "2016-11-20T00:00:00",
+              "count" : 3
+            }, {
+              "item" : "2016-10-30T00:00:00",
+              "count" : 2
+            }, {
+              "item" : "2016-03-01T00:00:00",
+              "count" : 1
+            } ],
+            "smallest" : "2016-01-01T00:00:00"
+          },
+          "format" : {
+            "view" : "date",
+            "align" : "left"
+          }
+        }, {
+          "id" : 362578724,
+          "name" : "CMPLNT_FR_TM",
+          "dataTypeName" : "text",
+          "fieldName" : "cmplnt_fr_tm",
+          "position" : 3,
+          "renderTypeName" : "text",
+          "tableColumnId" : 39763948,
+          "width" : 200,
+          "cachedContents" : {
+            "largest" : "23:30:00",
+            "non_null" : 95,
+            "null" : 0,
+            "top" : [ {
+              "item" : "12:00:00",
+              "count" : 20
+            }, {
+              "item" : "14:00:00",
+              "count" : 19
+            }, {
+              "item" : "00:01:00",
+              "count" : 18
+            }, {
+              "item" : "08:00:00",
+              "count" : 17
+            }, {
+              "item" : "00:00:00",
+              "count" : 16
+            }, {
+              "item" : "09:00:00",
+              "count" : 15
+            }, {
+              "item" : "13:00:00",
+              "count" : 14
+            }, {
+              "item" : "10:00:00",
+              "count" : 13
+            }, {
+              "item" : "15:00:00",
+              "count" : 12
+            }, {
+              "item" : "14:33:00",
+              "count" : 11
+            }, {
+              "item" : "18:31:00",
+              "count" : 10
+            }, {
+              "item" : "17:48:00",
+              "count" : 9
+            }, {
+              "item" : "07:44:00",
+              "count" : 8
+            }, {
+              "item" : "23:30:00",
+              "count" : 7
+            }, {
+              "item" : "21:00:00",
+              "count" : 6
+            } ],
+            "smallest" : "00:00:00"
+          },
+          "format" : { }
+        }, {
+          "id" : 362578725,
+          "name" : "CMPLNT_TO_DT",
+          "dataTypeName" : "calendar_date",
+          "fieldName" : "cmplnt_to_dt",
+          "position" : 4,
+          "renderTypeName" : "calendar_date",
+          "tableColumnId" : 39763949,
+          "width" : 209,
+          "cachedContents" : {
+            "largest" : "2018-03-25T00:00:00",
+            "non_null" : 70,
+            "null" : 25,
+            "top" : [ {
+              "item" : "2016-12-28T00:00:00",
+              "count" : 20
+            }, {
+              "item" : "2018-02-01T00:00:00",
+              "count" : 19
+            }, {
+              "item" : "2016-03-02T00:00:00",
+              "count" : 18
+            }, {
+              "item" : "2018-01-31T00:00:00",
+              "count" : 17
+            }, {
+              "item" : "2018-01-25T00:00:00",
+              "count" : 16
+            }, {
+              "item" : "2018-01-29T00:00:00",
+              "count" : 15
+            }, {
+              "item" : "2018-01-20T00:00:00",
+              "count" : 14
+            }, {
+              "item" : "2018-01-28T00:00:00",
+              "count" : 13
+            }, {
+              "item" : "2016-11-29T00:00:00",
+              "count" : 12
+            }, {
+              "item" : "2017-08-01T00:00:00",
+              "count" : 11
+            }, {
+              "item" : "2018-01-26T00:00:00",
+              "count" : 10
+            }, {
+              "item" : "2018-01-24T00:00:00",
+              "count" : 9
+            }, {
+              "item" : "2016-11-26T00:00:00",
+              "count" : 8
+            }, {
+              "item" : "2016-10-30T00:00:00",
+              "count" : 7
+            }, {
+              "item" : "2017-01-11T00:00:00",
+              "count" : 6
+            }, {
+              "item" : "2018-01-21T00:00:00",
+              "count" : 5
+            }, {
+              "item" : "2018-01-18T00:00:00",
+              "count" : 4
+            }, {
+              "item" : "2018-01-15T00:00:00",
+              "count" : 3
+            }, {
+              "item" : "2017-01-01T00:00:00",
+              "count" : 2
+            }, {
+              "item" : "2016-10-04T00:00:00",
+              "count" : 1
+            } ],
+            "smallest" : "2016-01-04T00:00:00"
+          },
+          "format" : {
+            "view" : "date",
+            "align" : "left"
+          }
+        }, {
+          "id" : 362578726,
+          "name" : "CMPLNT_TO_TM",
+          "dataTypeName" : "text",
+          "fieldName" : "cmplnt_to_tm",
+          "position" : 5,
+          "renderTypeName" : "text",
+          "tableColumnId" : 39763950,
+          "width" : 244,
+          "cachedContents" : {
+            "largest" : "23:59:00",
+            "non_null" : 70,
+            "null" : 25,
+            "top" : [ {
+              "item" : "01:00:00",
+              "count" : 20
+            }, {
+              "item" : "09:00:00",
+              "count" : 19
+            }, {
+              "item" : "23:59:00",
+              "count" : 18
+            }, {
+              "item" : "20:26:00",
+              "count" : 17
+            }, {
+              "item" : "15:30:00",
+              "count" : 16
+            }, {
+              "item" : "12:00:00",
+              "count" : 15
+            }, {
+              "item" : "20:00:00",
+              "count" : 14
+            }, {
+              "item" : "14:15:00",
+              "count" : 13
+            }, {
+              "item" : "15:00:00",
+              "count" : 12
+            }, {
+              "item" : "10:00:00",
+              "count" : 11
+            }, {
+              "item" : "20:55:00",
+              "count" : 10
+            }, {
+              "item" : "00:00:00",
+              "count" : 9
+            }, {
+              "item" : "16:00:00",
+              "count" : 8
+            }, {
+              "item" : "10:55:00",
+              "count" : 7
+            }, {
+              "item" : "07:09:00",
+              "count" : 6
+            }, {
+              "item" : "18:00:00",
+              "count" : 5
+            }, {
+              "item" : "17:00:00",
+              "count" : 4
+            }, {
+              "item" : "08:00:00",
+              "count" : 3
+            }, {
+              "item" : "19:30:00",
+              "count" : 2
+            }, {
+              "item" : "14:20:00",
+              "count" : 1
+            } ],
+            "smallest" : "00:00:00"
+          },
+          "format" : { }
+        }, {
+          "id" : 362578741,
+          "name" : "RPT_DT",
+          "dataTypeName" : "calendar_date",
+          "fieldName" : "rpt_dt",
+          "position" : 6,
+          "renderTypeName" : "calendar_date",
+          "tableColumnId" : 39763951,
+          "width" : 172,
+          "cachedContents" : {
+            "largest" : "2018-03-30T00:00:00",
+            "non_null" : 95,
+            "null" : 0,
+            "top" : [ {
+              "item" : "2018-03-27T00:00:00",
+              "count" : 20
+            }, {
+              "item" : "2018-03-22T00:00:00",
+              "count" : 19
+            }, {
+              "item" : "2018-03-20T00:00:00",
+              "count" : 18
+            }, {
+              "item" : "2018-03-16T00:00:00",
+              "count" : 17
+            }, {
+              "item" : "2018-02-28T00:00:00",
+              "count" : 16
+            }, {
+              "item" : "2018-02-21T00:00:00",
+              "count" : 15
+            }, {
+              "item" : "2018-02-16T00:00:00",
+              "count" : 14
+            }, {
+              "item" : "2018-02-12T00:00:00",
+              "count" : 13
+            }, {
+              "item" : "2018-02-09T00:00:00",
+              "count" : 12
+            }, {
+              "item" : "2018-02-06T00:00:00",
+              "count" : 11
+            }, {
+              "item" : "2018-02-01T00:00:00",
+              "count" : 10
+            }, {
+              "item" : "2018-01-31T00:00:00",
+              "count" : 9
+            }, {
+              "item" : "2018-01-30T00:00:00",
+              "count" : 8
+            }, {
+              "item" : "2018-01-29T00:00:00",
+              "count" : 7
+            }, {
+              "item" : "2018-01-28T00:00:00",
+              "count" : 6
+            }, {
+              "item" : "2018-01-23T00:00:00",
+              "count" : 5
+            }, {
+              "item" : "2018-01-21T00:00:00",
+              "count" : 4
+            }, {
+              "item" : "2018-01-19T00:00:00",
+              "count" : 3
+            }, {
+              "item" : "2018-01-18T00:00:00",
+              "count" : 2
+            }, {
+              "item" : "2018-01-15T00:00:00",
+              "count" : 1
+            } ],
+            "smallest" : "2018-01-02T00:00:00"
+          },
+          "format" : {
+            "view" : "date",
+            "align" : "left"
+          }
+        }, {
+          "id" : 362578732,
+          "name" : "KY_CD",
+          "dataTypeName" : "number",
+          "fieldName" : "ky_cd",
+          "position" : 7,
+          "renderTypeName" : "number",
+          "tableColumnId" : 39763952,
+          "width" : 160,
+          "cachedContents" : {
+            "largest" : "578",
+            "non_null" : 95,
+            "average" : "224.9789473684211",
+            "null" : 0,
+            "top" : [ {
+              "item" : "361",
+              "count" : 20
+            }, {
+              "item" : "109",
+              "count" : 19
+            }, {
+              "item" : "233",
+              "count" : 18
+            }, {
+              "item" : "578",
+              "count" : 17
+            }, {
+              "item" : "121",
+              "count" : 16
+            }, {
+              "item" : "104",
+              "count" : 15
+            }, {
+              "item" : "112",
+              "count" : 14
+            }, {
+              "item" : "340",
+              "count" : 13
+            }, {
+              "item" : "125",
+              "count" : 12
+            }, {
+              "item" : "344",
+              "count" : 11
+            }, {
+              "item" : "341",
+              "count" : 10
+            }, {
+              "item" : "113",
+              "count" : 9
+            }, {
+              "item" : "365",
+              "count" : 8
+            }, {
+              "item" : "351",
+              "count" : 7
+            } ],
+            "smallest" : "104",
+            "sum" : "21373"
+          },
+          "format" : { }
+        }, {
+          "id" : 362578735,
+          "name" : "OFNS_DESC",
+          "dataTypeName" : "text",
+          "fieldName" : "ofns_desc",
+          "position" : 8,
+          "renderTypeName" : "text",
+          "tableColumnId" : 39763953,
+          "width" : 208,
+          "cachedContents" : {
+            "largest" : "THEFT-FRAUD",
+            "non_null" : 95,
+            "null" : 0,
+            "top" : [ {
+              "item" : "OFF. AGNST PUB ORD SENSBLTY &",
+              "count" : 20
+            }, {
+              "item" : "GRAND LARCENY",
+              "count" : 19
+            }, {
+              "item" : "SEX CRIMES",
+              "count" : 18
+            }, {
+              "item" : "HARRASSMENT 2",
+              "count" : 17
+            }, {
+              "item" : "CRIMINAL MISCHIEF & RELATED OF",
+              "count" : 16
+            }, {
+              "item" : "RAPE",
+              "count" : 15
+            }, {
+              "item" : "THEFT-FRAUD",
+              "count" : 14
+            }, {
+              "item" : "FRAUDS",
+              "count" : 13
+            }, {
+              "item" : "NYS LAWS-UNCLASSIFIED FELONY",
+              "count" : 12
+            }, {
+              "item" : "ASSAULT 3 & RELATED OFFENSES",
+              "count" : 11
+            }, {
+              "item" : "PETIT LARCENY",
+              "count" : 10
+            }, {
+              "item" : "FORGERY",
+              "count" : 9
+            }, {
+              "item" : "ADMINISTRATIVE CODE",
+              "count" : 8
+            } ],
+            "smallest" : "ADMINISTRATIVE CODE"
+          },
+          "format" : { }
+        }, {
+          "id" : 362578738,
+          "name" : "PD_CD",
+          "dataTypeName" : "number",
+          "fieldName" : "pd_cd",
+          "position" : 9,
+          "renderTypeName" : "number",
+          "tableColumnId" : 39763954,
+          "width" : 160,
+          "cachedContents" : {
+            "largest" : "878.0",
+            "non_null" : 95,
+            "average" : "516.8315789473684",
+            "null" : 0,
+            "top" : [ {
+              "item" : "639.0",
+              "count" : 20
+            }, {
+              "item" : "437.0",
+              "count" : 19
+            }, {
+              "item" : "175.0",
+              "count" : 18
+            }, {
+              "item" : "638.0",
+              "count" : 17
+            }, {
+              "item" : "637.0",
+              "count" : 16
+            }, {
+              "item" : "268.0",
+              "count" : 15
+            }, {
+              "item" : "407.0",
+              "count" : 14
+            }, {
+              "item" : "157.0",
+              "count" : 13
+            }, {
+              "item" : "739.0",
+              "count" : 12
+            }, {
+              "item" : "170.0",
+              "count" : 11
+            }, {
+              "item" : "422.0",
+              "count" : 10
+            }, {
+              "item" : "718.0",
+              "count" : 9
+            }, {
+              "item" : "432.0",
+              "count" : 8
+            }, {
+              "item" : "273.0",
+              "count" : 7
+            }, {
+              "item" : "402.0",
+              "count" : 6
+            }, {
+              "item" : "420.0",
+              "count" : 5
+            }, {
+              "item" : "772.0",
+              "count" : 4
+            }, {
+              "item" : "412.0",
+              "count" : 3
+            }, {
+              "item" : "847.0",
+              "count" : 2
+            }, {
+              "item" : "426.0",
+              "count" : 1
+            } ],
+            "smallest" : "101.0",
+            "sum" : "49099.0"
+          },
+          "format" : { }
+        }, {
+          "id" : 362578739,
+          "name" : "PD_DESC",
+          "dataTypeName" : "text",
+          "fieldName" : "pd_desc",
+          "position" : 10,
+          "renderTypeName" : "text",
+          "tableColumnId" : 39763955,
+          "width" : 184,
+          "cachedContents" : {
+            "largest" : "TAMPERING 1,CRIMINAL",
+            "non_null" : 95,
+            "null" : 0,
+            "top" : [ {
+              "item" : "AGGRAVATED HARASSMENT 2",
+              "count" : 20
+            }, {
+              "item" : "LARCENY,GRAND BY FALSE PROMISE-IN PERSON CONTACT",
+              "count" : 19
+            }, {
+              "item" : "SEXUAL ABUSE 3,2",
+              "count" : 18
+            }, {
+              "item" : "HARASSMENT,SUBD 3,4,5",
+              "count" : 17
+            }, {
+              "item" : "HARASSMENT,SUBD 1,CIVILIAN",
+              "count" : 16
+            }, {
+              "item" : "CRIMINAL MIS 2 & 3",
+              "count" : 15
+            }, {
+              "item" : "LARCENY,GRAND BY DISHONEST EMP",
+              "count" : 14
+            }, {
+              "item" : "RAPE 1",
+              "count" : 13
+            }, {
+              "item" : "FRAUD,UNCLASSIFIED-FELONY",
+              "count" : 12
+            }, {
+              "item" : "SEXUAL MISCONDUCT,INTERCOURSE",
+              "count" : 11
+            }, {
+              "item" : "LARCENY,GRAND BY OPEN CREDIT CARD (NEW ACCT)",
+              "count" : 10
+            }, {
+              "item" : "FRAUD,UNCLASSIFIED-MISDEMEANOR",
+              "count" : 9
+            }, {
+              "item" : "LARCENY,GRAND BY IDENTITY THEFT-UNCLASSIFIED",
+              "count" : 8
+            }, {
+              "item" : "TAMPERING 1,CRIMINAL",
+              "count" : 7
+            }, {
+              "item" : "LARCENY,GRAND BY FALSE PROMISE-NOT IN PERSON CONTACT",
+              "count" : 6
+            }, {
+              "item" : "LARCENY,GRAND BY OPEN/COMPROMISE CELL PHONE ACCT",
+              "count" : 5
+            }, {
+              "item" : "COMPUTER TAMPER/TRESSPASS",
+              "count" : 4
+            }, {
+              "item" : "LARCENY,GRAND FROM RESIDENCE, UNATTENDED",
+              "count" : 3
+            }, {
+              "item" : "NY STATE LAWS,UNCLASSIFIED FEL",
+              "count" : 2
+            }, {
+              "item" : "LARCENY,GRAND BY BANK ACCT COMPROMISE-TELLER",
+              "count" : 1
+            } ],
+            "smallest" : "ADM.CODE,UNCLASSIFIED MISDEMEA"
+          },
+          "format" : { }
+        }, {
+          "id" : 362578727,
+          "name" : "CRM_ATPT_CPTD_CD",
+          "dataTypeName" : "text",
+          "fieldName" : "crm_atpt_cptd_cd",
+          "position" : 11,
+          "renderTypeName" : "text",
+          "tableColumnId" : 39763956,
+          "width" : 292,
+          "cachedContents" : {
+            "largest" : "COMPLETED",
+            "non_null" : 95,
+            "null" : 0,
+            "top" : [ {
+              "item" : "COMPLETED",
+              "count" : 20
+            }, {
+              "item" : "ATTEMPTED",
+              "count" : 19
+            } ],
+            "smallest" : "ATTEMPTED"
+          },
+          "format" : { }
+        }, {
+          "id" : 362578733,
+          "name" : "LAW_CAT_CD",
+          "dataTypeName" : "text",
+          "fieldName" : "law_cat_cd",
+          "position" : 12,
+          "renderTypeName" : "text",
+          "tableColumnId" : 39763957,
+          "width" : 220,
+          "cachedContents" : {
+            "largest" : "VIOLATION",
+            "non_null" : 95,
+            "null" : 0,
+            "top" : [ {
+              "item" : "MISDEMEANOR",
+              "count" : 20
+            }, {
+              "item" : "FELONY",
+              "count" : 19
+            }, {
+              "item" : "VIOLATION",
+              "count" : 18
+            } ],
+            "smallest" : "FELONY"
+          },
+          "format" : { }
+        }, {
+          "id" : 362578731,
+          "name" : "JURIS_DESC",
+          "dataTypeName" : "text",
+          "fieldName" : "juris_desc",
+          "position" : 13,
+          "renderTypeName" : "text",
+          "tableColumnId" : 39763958,
+          "width" : 220,
+          "cachedContents" : {
+            "largest" : "N.Y. TRANSIT POLICE",
+            "non_null" : 95,
+            "null" : 0,
+            "top" : [ {
+              "item" : "N.Y. POLICE DEPT",
+              "count" : 20
+            }, {
+              "item" : "N.Y. TRANSIT POLICE",
+              "count" : 19
+            }, {
+              "item" : "N.Y. HOUSING POLICE",
+              "count" : 18
+            } ],
+            "smallest" : "N.Y. HOUSING POLICE"
+          },
+          "format" : { }
+        }, {
+          "id" : 362578722,
+          "name" : "BORO_NM",
+          "dataTypeName" : "text",
+          "fieldName" : "boro_nm",
+          "position" : 14,
+          "renderTypeName" : "text",
+          "tableColumnId" : 39763959,
+          "width" : 184,
+          "cachedContents" : {
+            "largest" : "MANHATTAN",
+            "non_null" : 95,
+            "null" : 0,
+            "top" : [ {
+              "item" : "MANHATTAN",
+              "count" : 20
+            } ],
+            "smallest" : "MANHATTAN"
+          },
+          "format" : { }
+        }, {
+          "id" : 362578721,
+          "name" : "ADDR_PCT_CD",
+          "dataTypeName" : "number",
+          "fieldName" : "addr_pct_cd",
+          "position" : 15,
+          "renderTypeName" : "number",
+          "tableColumnId" : 39763960,
+          "width" : 232,
+          "cachedContents" : {
+            "largest" : "34",
+            "non_null" : 95,
+            "average" : "20.52631578947368",
+            "null" : 0,
+            "top" : [ {
+              "item" : "6",
+              "count" : 20
+            }, {
+              "item" : "28",
+              "count" : 19
+            }, {
+              "item" : "14",
+              "count" : 18
+            }, {
+              "item" : "13",
+              "count" : 17
+            }, {
+              "item" : "19",
+              "count" : 16
+            }, {
+              "item" : "5",
+              "count" : 15
+            }, {
+              "item" : "32",
+              "count" : 14
+            }, {
+              "item" : "17",
+              "count" : 13
+            }, {
+              "item" : "34",
+              "count" : 12
+            }, {
+              "item" : "20",
+              "count" : 11
+            }, {
+              "item" : "23",
+              "count" : 10
+            }, {
+              "item" : "33",
+              "count" : 9
+            }, {
+              "item" : "26",
+              "count" : 8
+            }, {
+              "item" : "7",
+              "count" : 7
+            }, {
+              "item" : "24",
+              "count" : 6
+            }, {
+              "item" : "1",
+              "count" : 5
+            }, {
+              "item" : "30",
+              "count" : 4
+            }, {
+              "item" : "9",
+              "count" : 3
+            }, {
+              "item" : "18",
+              "count" : 2
+            }, {
+              "item" : "25",
+              "count" : 1
+            } ],
+            "smallest" : "1",
+            "sum" : "1950"
+          },
+          "format" : { }
+        }, {
+          "id" : 362578734,
+          "name" : "LOC_OF_OCCUR_DESC",
+          "dataTypeName" : "text",
+          "fieldName" : "loc_of_occur_desc",
+          "position" : 16,
+          "renderTypeName" : "text",
+          "tableColumnId" : 39763961,
+          "width" : 304,
+          "cachedContents" : {
+            "largest" : "OPPOSITE OF",
+            "non_null" : 83,
+            "null" : 12,
+            "top" : [ {
+              "item" : "INSIDE",
+              "count" : 20
+            }, {
+              "item" : "FRONT OF",
+              "count" : 19
+            }, {
+              "item" : "OPPOSITE OF",
+              "count" : 18
+            } ],
+            "smallest" : "FRONT OF"
+          },
+          "format" : { }
+        }, {
+          "id" : 362578740,
+          "name" : "PREM_TYP_DESC",
+          "dataTypeName" : "text",
+          "fieldName" : "prem_typ_desc",
+          "position" : 17,
+          "renderTypeName" : "text",
+          "tableColumnId" : 39763962,
+          "width" : 256,
+          "cachedContents" : {
+            "largest" : "TRANSIT - NYC SUBWAY",
+            "non_null" : 94,
+            "null" : 1,
+            "top" : [ {
+              "item" : "STREET",
+              "count" : 20
+            }, {
+              "item" : "RESIDENCE - APT. HOUSE",
+              "count" : 19
+            }, {
+              "item" : "COMMERCIAL BUILDING",
+              "count" : 18
+            }, {
+              "item" : "TAXI (YELLOW LICENSED)",
+              "count" : 17
+            }, {
+              "item" : "TRANSIT FACILITY (OTHER)",
+              "count" : 16
+            }, {
+              "item" : "RESIDENCE - PUBLIC HOUSING",
+              "count" : 15
+            }, {
+              "item" : "TRANSIT - NYC SUBWAY",
+              "count" : 14
+            }, {
+              "item" : "PUBLIC BUILDING",
+              "count" : 13
+            }, {
+              "item" : "MAILBOX INSIDE",
+              "count" : 12
+            }, {
+              "item" : "OTHER",
+              "count" : 11
+            }, {
+              "item" : "DOCTOR/DENTIST OFFICE",
+              "count" : 10
+            }, {
+              "item" : "CHAIN STORE",
+              "count" : 9
+            }, {
+              "item" : "RESIDENCE-HOUSE",
+              "count" : 8
+            }, {
+              "item" : "GYM/FITNESS FACILITY",
+              "count" : 7
+            }, {
+              "item" : "HOTEL/MOTEL",
+              "count" : 6
+            }, {
+              "item" : "JEWELRY",
+              "count" : 5
+            }, {
+              "item" : "BANK",
+              "count" : 4
+            }, {
+              "item" : "DRUG STORE",
+              "count" : 3
+            }, {
+              "item" : "PARKING LOT/GARAGE (PUBLIC)",
+              "count" : 2
+            }, {
+              "item" : "DEPARTMENT STORE",
+              "count" : 1
+            } ],
+            "smallest" : "BANK"
+          },
+          "format" : { }
+        }, {
+          "id" : 362578736,
+          "name" : "PARKS_NM",
+          "dataTypeName" : "text",
+          "fieldName" : "parks_nm",
+          "position" : 18,
+          "renderTypeName" : "text",
+          "tableColumnId" : 39763963,
+          "width" : 196,
+          "cachedContents" : {
+            "non_null" : 0,
+            "null" : 95
+          },
+          "format" : { }
+        }, {
+          "id" : 362578728,
+          "name" : "HADEVELOPT",
+          "dataTypeName" : "text",
+          "fieldName" : "hadevelopt",
+          "position" : 19,
+          "renderTypeName" : "text",
+          "tableColumnId" : 39763964,
+          "width" : 220,
+          "cachedContents" : {
+            "largest" : "LINCOLN",
+            "non_null" : 3,
+            "null" : 92,
+            "top" : [ {
+              "item" : "JOHNSON",
+              "count" : 20
+            }, {
+              "item" : "BARUCH",
+              "count" : 19
+            }, {
+              "item" : "LINCOLN",
+              "count" : 18
+            } ],
+            "smallest" : "BARUCH"
+          },
+          "format" : { }
+        }, {
+          "id" : 362578750,
+          "name" : "X_COORD_CD",
+          "dataTypeName" : "number",
+          "fieldName" : "x_coord_cd",
+          "position" : 20,
+          "renderTypeName" : "number",
+          "tableColumnId" : 39763965,
+          "width" : 220,
+          "cachedContents" : {
+            "largest" : "1005317.0",
+            "non_null" : 95,
+            "average" : "993687.3578947368",
+            "null" : 0,
+            "top" : [ {
+              "item" : "983903.0",
+              "count" : 20
+            }, {
+              "item" : "989741.0",
+              "count" : 19
+            }, {
+              "item" : "996482.0",
+              "count" : 18
+            }, {
+              "item" : "988982.0",
+              "count" : 17
+            }, {
+              "item" : "1002106.0",
+              "count" : 16
+            }, {
+              "item" : "980219.0",
+              "count" : 15
+            }, {
+              "item" : "990598.0",
+              "count" : 14
+            }, {
+              "item" : "996345.0",
+              "count" : 13
+            }, {
+              "item" : "999358.0",
+              "count" : 12
+            } ],
+            "smallest" : "980219.0",
+            "sum" : "94400299.0"
+          },
+          "format" : { }
+        }, {
+          "id" : 362578751,
+          "name" : "Y_COORD_CD",
+          "dataTypeName" : "number",
+          "fieldName" : "y_coord_cd",
+          "position" : 21,
+          "renderTypeName" : "number",
+          "tableColumnId" : 39763966,
+          "width" : 220,
+          "cachedContents" : {
+            "largest" : "255575.0",
+            "non_null" : 95,
+            "average" : "224631.5368421053",
+            "null" : 0,
+            "top" : [ {
+              "item" : "200257.0",
+              "count" : 20
+            }, {
+              "item" : "215196.0",
+              "count" : 19
+            }, {
+              "item" : "223147.0",
+              "count" : 18
+            }, {
+              "item" : "223466.0",
+              "count" : 17
+            }, {
+              "item" : "249501.0",
+              "count" : 16
+            }, {
+              "item" : "197152.0",
+              "count" : 15
+            }, {
+              "item" : "212007.0",
+              "count" : 14
+            }, {
+              "item" : "230977.0",
+              "count" : 13
+            }, {
+              "item" : "222038.0",
+              "count" : 12
+            } ],
+            "smallest" : "196845.0",
+            "sum" : "21339996.0"
+          },
+          "format" : { }
+        }, {
+          "id" : 362578752,
+          "name" : "Latitude",
+          "dataTypeName" : "number",
+          "fieldName" : "latitude",
+          "position" : 22,
+          "renderTypeName" : "number",
+          "tableColumnId" : 39763967,
+          "width" : 196,
+          "cachedContents" : {
+            "largest" : "40.868151998",
+            "non_null" : 95,
+            "average" : "40.78323852851579",
+            "null" : 0,
+            "top" : [ {
+              "item" : "40.716344152",
+              "count" : 20
+            }, {
+              "item" : "40.757346324",
+              "count" : 19
+            }, {
+              "item" : "40.779163",
+              "count" : 18
+            }, {
+              "item" : "40.780045767",
+              "count" : 17
+            }, {
+              "item" : "40.851487774",
+              "count" : 16
+            }, {
+              "item" : "40.707820753",
+              "count" : 15
+            }, {
+              "item" : "40.748592752",
+              "count" : 14
+            }, {
+              "item" : "40.800654436",
+              "count" : 13
+            }, {
+              "item" : "40.776114639",
+              "count" : 12
+            } ],
+            "smallest" : "40.706978808",
+            "sum" : "3874.407660209"
+          },
+          "format" : { }
+        }, {
+          "id" : 362578753,
+          "name" : "Longitude",
+          "dataTypeName" : "number",
+          "fieldName" : "longitude",
+          "position" : 23,
+          "renderTypeName" : "number",
+          "tableColumnId" : 39763968,
+          "width" : 208,
+          "cachedContents" : {
+            "largest" : "-73.923832188",
+            "non_null" : 95,
+            "average" : "-73.96590968742105",
+            "null" : 0,
+            "top" : [ {
+              "item" : "-74.001253193",
+              "count" : 20
+            }, {
+              "item" : "-73.980181368",
+              "count" : 19
+            }, {
+              "item" : "-73.955834874",
+              "count" : 18
+            }, {
+              "item" : "-73.982915201",
+              "count" : 17
+            }, {
+              "item" : "-73.935457967",
+              "count" : 16
+            }, {
+              "item" : "-74.014540763",
+              "count" : 15
+            }, {
+              "item" : "-73.977090987",
+              "count" : 14
+            }, {
+              "item" : "-73.956315447",
+              "count" : 13
+            }, {
+              "item" : "-73.945452881",
+              "count" : 12
+            } ],
+            "smallest" : "-74.014540763",
+            "sum" : "-7026.761420305"
+          },
+          "format" : { }
+        }, {
+          "id" : 362578754,
+          "name" : "Lat_Lon",
+          "dataTypeName" : "location",
+          "fieldName" : "lat_lon",
+          "position" : 24,
+          "renderTypeName" : "location",
+          "tableColumnId" : 39763969,
+          "width" : 220,
+          "cachedContents" : {
+            "largest" : {
+              "latitude" : "40.776114639",
+              "longitude" : "-73.945452881"
+            },
+            "non_null" : 95,
+            "null" : 0,
+            "top" : [ {
+              "item" : {
+                "latitude" : "40.716344152",
+                "longitude" : "-74.001253193"
+              },
+              "count" : 20
+            }, {
+              "item" : {
+                "latitude" : "40.757346324",
+                "longitude" : "-73.980181368"
+              },
+              "count" : 19
+            }, {
+              "item" : {
+                "latitude" : "40.779163",
+                "longitude" : "-73.955834874"
+              },
+              "count" : 18
+            }, {
+              "item" : {
+                "latitude" : "40.780045767",
+                "longitude" : "-73.982915201"
+              },
+              "count" : 17
+            }, {
+              "item" : {
+                "latitude" : "40.851487774",
+                "longitude" : "-73.935457967"
+              },
+              "count" : 16
+            }, {
+              "item" : {
+                "latitude" : "40.707820753",
+                "longitude" : "-74.014540763"
+              },
+              "count" : 15
+            }, {
+              "item" : {
+                "latitude" : "40.748592752",
+                "longitude" : "-73.977090987"
+              },
+              "count" : 14
+            }, {
+              "item" : {
+                "latitude" : "40.800654436",
+                "longitude" : "-73.956315447"
+              },
+              "count" : 13
+            }, {
+              "item" : {
+                "latitude" : "40.776114639",
+                "longitude" : "-73.945452881"
+              },
+              "count" : 12
+            } ],
+            "smallest" : {
+              "latitude" : "40.730756883",
+              "longitude" : "-74.000769976"
+            }
+          },
+          "format" : {
+            "view" : "address_coords",
+            "align" : "left"
+          },
+          "subColumnTypes" : [ "human_address", "latitude", "longitude", "machine_address", "needs_recoding" ]
+        } ],
+        "grants" : [ {
+          "inherited" : true,
+          "type" : "viewer",
+          "flags" : [ "public" ]
+        } ],
+        "metadata" : {
+          "rdfSubject" : "0",
+          "attachments" : [ {
+            "filename" : "NYPDIncidentLevelDataFootnotes.pdf",
+            "assetId" : "fc4f191a-6adf-4268-a1ae-8525a8d7027b",
+            "blobId" : "",
+            "name" : "NYPDIncidentLevelDataFootnotes.pdf"
+          }, {
+            "filename" : "NYPD_Incident_Level_Data_Column_Descriptions.csv",
+            "assetId" : "5622c761-4377-4060-a628-ee39ad5c5497",
+            "blobId" : "",
+            "name" : "NYPD_Incident_Level_Data_Column_Descriptions.csv"
+          } ],
+          "custom_fields" : {
+            "Update" : {
+              "Automation" : "No",
+              "Date Made Public" : "TBD",
+              "Update Frequency" : "Quarterly"
+            },
+            "Dataset Information" : {
+              "Agency" : "Police Department (NYPD)"
+            }
+          },
+          "rowLabel" : "Row",
+          "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+          "renderTypeConfig" : {
+            "visible" : {
+              "table" : true
+            }
+          }
+        },
+        "owner" : {
+          "id" : "4k5s-5496",
+          "displayName" : "SHERWIN LAU",
+          "screenName" : "SHERWIN LAU",
+          "type" : "interactive"
+        },
+        "query" : {
+          "filterCondition" : {
+            "type" : "operator",
+            "value" : "AND",
+            "children" : [ {
+              "type" : "operator",
+              "value" : "OR",
+              "children" : [ {
+                "type" : "operator",
+                "value" : "BETWEEN",
+                "children" : [ {
+                  "columnId" : 362578723,
+                  "type" : "column"
+                }, {
+                  "type" : "literal",
+                  "value" : "2016-01-01T00:00:00"
+                }, {
+                  "type" : "literal",
+                  "value" : "2016-12-31T00:00:00"
+                } ],
+                "metadata" : {
+                  "freeform" : true
+                }
+              } ],
+              "metadata" : {
+                "tableColumnId" : {
+                  "13877134" : 39763947
+                },
+                "operator" : "BETWEEN"
+              }
+            }, {
+              "type" : "operator",
+              "value" : "OR",
+              "children" : [ {
+                "type" : "operator",
+                "value" : "EQUALS",
+                "children" : [ {
+                  "columnId" : 362578722,
+                  "type" : "column"
+                }, {
+                  "type" : "literal",
+                  "value" : "Manhattan"
+                } ],
+                "metadata" : {
+                  "freeform" : true
+                }
+              } ],
+              "metadata" : {
+                "tableColumnId" : {
+                  "13877134" : 39763959
+                },
+                "operator" : "EQUALS"
+              }
+            } ],
+            "metadata" : {
+              "unifiedVersion" : 2
+            }
+          }
+        },
+        "rights" : [ "read" ],
+        "tableAuthor" : {
+          "id" : "5fuc-pqz2",
+          "displayName" : "NYC OpenData",
+          "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+          "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+          "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+          "screenName" : "NYC OpenData",
+          "type" : "interactive",
+          "flags" : [ "mayBeStoriesCoOwner" ]
+        },
+        "tags" : [ "nypd", "incident", "crime", "nycopendata" ]
+      }
+    },
+    "data" : [ [ 32855, "5A1F1385-789C-483F-9E53-91B4D0A106A8", 32855, 1528395175, "399231", 1528395175, "399231", null, "503172426", "2016-01-01T00:00:00", "00:01:00", "2017-12-31T00:00:00", "23:59:00", "2018-03-05T00:00:00", "233", "SEX CRIMES", "170.0", "SEXUAL MISCONDUCT,INTERCOURSE", "ATTEMPTED", "MISDEMEANOR", "N.Y. HOUSING POLICE", "MANHATTAN", "33", "INSIDE", "RESIDENCE - PUBLIC HOUSING", null, null, "1001936.0", "245282.0", "40.839908201", "-73.936083587", [ null, "40.839908201", "-73.936083587", null, false ] ]
+  , [ 38843, "0A47CCD8-E314-4F84-8460-233D250593FC", 38843, 1528395178, "399231", 1528395178, "399231", null, "295322737", "2016-01-01T00:00:00", "12:00:00", "2018-02-16T00:00:00", "12:00:00", "2018-02-28T00:00:00", "109", "GRAND LARCENY", "407.0", "LARCENY,GRAND BY DISHONEST EMP", "COMPLETED", "FELONY", "N.Y. POLICE DEPT", "MANHATTAN", "20", "INSIDE", "OTHER", null, null, "989731.0", "222727.0", "40.778016975", "-73.980211324", [ null, "40.778016975", "-73.980211324", null, false ] ]
+  , [ 47514, "97B883BA-0A70-4475-91D8-C06A605ABE6E", 47514, 1528395182, "399231", 1528395182, "399231", null, "357999727", "2016-01-01T00:00:00", "08:00:00", "2017-03-18T00:00:00", "17:00:00", "2018-02-21T00:00:00", "109", "GRAND LARCENY", "420.0", "LARCENY,GRAND BY OPEN/COMPROMISE CELL PHONE ACCT", "COMPLETED", "FELONY", "N.Y. POLICE DEPT", "MANHATTAN", "34", "INSIDE", "RESIDENCE - APT. HOUSE", null, null, "1001606.0", "251324.0", "40.856492363", "-73.93726058", [ null, "40.856492363", "-73.93726058", null, false ] ]
+  , [ 53565, "FB2CCD34-7891-4CAE-84E9-BAC21AE64B5B", 53565, 1528395185, "399231", 1528395185, "399231", null, "333467273", "2016-01-01T00:00:00", "00:00:00", "2018-02-15T00:00:00", "19:30:00", "2018-02-16T00:00:00", "112", "THEFT-FRAUD", "739.0", "FRAUD,UNCLASSIFIED-FELONY", "COMPLETED", "FELONY", "N.Y. POLICE DEPT", "MANHATTAN", "32", "INSIDE", "RESIDENCE - APT. HOUSE", null, null, "1001374.0", "238163.0", "40.820369696", "-73.938132846", [ null, "40.820369696", "-73.938132846", null, false ] ]
+  , [ 60016, "F7BC64B1-A5A6-4840-9D6A-04B13368E4E6", 60016, 1528395188, "399231", 1528395188, "399231", null, "346187656", "2016-01-01T00:00:00", "10:00:00", "2018-02-11T00:00:00", "16:00:00", "2018-02-11T00:00:00", "578", "HARRASSMENT 2", "638.0", "HARASSMENT,SUBD 3,4,5", "COMPLETED", "VIOLATION", "N.Y. POLICE DEPT", "MANHATTAN", "24", "INSIDE", "RESIDENCE - APT. HOUSE", null, null, "993373.0", "229301.0", "40.79605784", "-73.967052307", [ null, "40.79605784", "-73.967052307", null, false ] ]
+  , [ 82826, "F5E32327-C879-4F0C-84F5-91A32578EA64", 82826, 1528395198, "399231", 1528395198, "399231", null, "147658573", "2016-01-01T00:00:00", "12:00:00", "2018-01-24T00:00:00", "17:00:00", "2018-01-24T00:00:00", "361", "OFF. AGNST PUB ORD SENSBLTY &", "639.0", "AGGRAVATED HARASSMENT 2", "COMPLETED", "MISDEMEANOR", "N.Y. POLICE DEPT", "MANHATTAN", "18", "INSIDE", "RESIDENCE - APT. HOUSE", null, null, "988085.0", "217902.0", "40.764774473", "-73.986157253", [ null, "40.764774473", "-73.986157253", null, false ] ]
+  , [ 99020, "77544332-B4D7-4906-9DE7-3805246FB852", 99020, 1528395206, "399231", 1528395206, "399231", null, "142017490", "2016-01-04T00:00:00", "12:00:00", "2016-01-04T00:00:00", "23:00:00", "2018-01-11T00:00:00", "109", "GRAND LARCENY", "422.0", "LARCENY,GRAND BY OPEN CREDIT CARD (NEW ACCT)", "COMPLETED", "FELONY", "N.Y. POLICE DEPT", "MANHATTAN", "34", "INSIDE", "RESIDENCE - APT. HOUSE", null, null, "1005250.0", "254388.0", "40.864894204", "-73.92407815", [ null, "40.864894204", "-73.92407815", null, false ] ]
+  , [ 90580, "417A07FD-30CE-4FF2-B40A-DE48266A209B", 90580, 1528395202, "399231", 1528395202, "399231", null, "892822562", "2016-01-18T00:00:00", "07:44:00", "2018-01-18T00:00:00", "07:47:00", "2018-01-18T00:00:00", "341", "PETIT LARCENY", "333.0", "LARCENY,PETIT FROM STORE-SHOPL", "COMPLETED", "MISDEMEANOR", "N.Y. POLICE DEPT", "MANHATTAN", "28", "INSIDE", "DRUG STORE", null, null, "998151.0", "234236.0", "40.809596838", "-73.949785598", [ null, "40.809596838", "-73.949785598", null, false ] ]
+  , [ 2448, "903031A6-017F-4423-A578-32315E58045D", 2448, 1528395161, "399231", 1528395161, "399231", null, "776618477", "2016-01-25T00:00:00", "12:00:00", "2018-03-25T00:00:00", "01:00:00", "2018-03-30T00:00:00", "361", "OFF. AGNST PUB ORD SENSBLTY &", "639.0", "AGGRAVATED HARASSMENT 2", "COMPLETED", "MISDEMEANOR", "N.Y. POLICE DEPT", "MANHATTAN", "6", "INSIDE", null, null, null, "984037.0", "205508.0", "40.730756883", "-74.000769976", [ null, "40.730756883", "-74.000769976", null, false ] ]
+  , [ 76229, "1E936558-9944-47EF-8412-77B593D4E783", 76229, 1528395195, "399231", 1528395195, "399231", null, "471926277", "2016-01-28T00:00:00", "10:00:00", "2018-01-28T00:00:00", "11:00:00", "2018-01-29T00:00:00", "365", "ADMINISTRATIVE CODE", "878.0", "ADM.CODE,UNCLASSIFIED MISDEMEA", "COMPLETED", "MISDEMEANOR", "N.Y. POLICE DEPT", "MANHATTAN", "28", "FRONT OF", "RESIDENCE - APT. HOUSE", null, null, "996600.0", "231435.0", "40.801911169", "-73.955393569", [ null, "40.801911169", "-73.955393569", null, false ] ]
+  , [ 77352, "9FB49F2B-F057-4D12-9C30-34ABCA71D2BF", 77352, 1528395196, "399231", 1528395196, "399231", null, "278766862", "2016-01-28T00:00:00", "12:58:00", "2018-01-28T00:00:00", "13:12:00", "2018-01-28T00:00:00", "578", "HARRASSMENT 2", "638.0", "HARASSMENT,SUBD 3,4,5", "COMPLETED", "VIOLATION", "N.Y. POLICE DEPT", "MANHATTAN", "19", "INSIDE", "RESIDENCE - APT. HOUSE", null, null, "997293.0", "221326.0", "40.774163675", "-73.952910098", [ null, "40.774163675", "-73.952910098", null, false ] ]
+  , [ 74927, "5301D865-1399-4A8A-8CE8-651F078900C6", 74927, 1528395195, "399231", 1528395195, "399231", null, "748779345", "2016-02-01T00:00:00", "08:00:00", "2018-01-29T00:00:00", "18:00:00", "2018-01-30T00:00:00", "361", "OFF. AGNST PUB ORD SENSBLTY &", "639.0", "AGGRAVATED HARASSMENT 2", "COMPLETED", "MISDEMEANOR", "N.Y. POLICE DEPT", "MANHATTAN", "18", "INSIDE", "COMMERCIAL BUILDING", null, null, "989736.0", "216243.0", "40.760220074", "-73.980198562", [ null, "40.760220074", "-73.980198562", null, false ] ]
+  , [ 12578, "F9114C8B-E69B-4FEC-A47F-217C6DA6D56C", 12578, 1528395166, "399231", 1528395166, "399231", null, "688083062", "2016-02-09T00:00:00", "12:00:00", "2016-02-13T00:00:00", "20:00:00", "2018-03-22T00:00:00", "104", "RAPE", "157.0", "RAPE 1", "COMPLETED", "FELONY", "N.Y. HOUSING POLICE", "MANHATTAN", "32", "INSIDE", "RESIDENCE - PUBLIC HOUSING", null, null, "999358.0", "236472.0", "40.815732053", "-73.945420411", [ null, "40.815732053", "-73.945420411", null, false ] ]
+  , [ 53564, "42A168E0-7C0E-4464-8FD6-7689C0603EF8", 53564, 1528395185, "399231", 1528395185, "399231", null, "395279506", "2016-02-14T00:00:00", "10:00:00", "2016-02-15T00:00:00", "12:00:00", "2018-02-16T00:00:00", "344", "ASSAULT 3 & RELATED OFFENSES", "101.0", "ASSAULT 3", "COMPLETED", "MISDEMEANOR", "N.Y. TRANSIT POLICE", "MANHATTAN", "7", null, "TRANSIT - NYC SUBWAY", null, null, "987206.0", "199455.0", "40.714142367", "-73.989338511", [ null, "40.714142367", "-73.989338511", null, false ] ]
+  , [ 61155, "82B84500-1238-49B1-907A-12CE7F5982D6", 61155, 1528395189, "399231", 1528395189, "399231", null, "814635307", "2016-02-16T00:00:00", "12:30:00", "2016-02-23T00:00:00", "23:00:00", "2018-02-10T00:00:00", "341", "PETIT LARCENY", "347.0", "PETIT LARCENY-CHECK FROM MAILB", "COMPLETED", "MISDEMEANOR", "N.Y. POLICE DEPT", "MANHATTAN", "34", null, "STREET", null, null, "1004811.0", "253066.0", "40.861266748", "-73.925669364", [ null, "40.861266748", "-73.925669364", null, false ] ]
+  , [ 38842, "CB70D6F1-4ABB-4870-BA51-9055F5A6DDEE", 38842, 1528395178, "399231", 1528395178, "399231", null, "721263324", "2016-02-28T00:00:00", "07:09:00", "2018-02-28T00:00:00", "07:09:00", "2018-02-28T00:00:00", "109", "GRAND LARCENY", "403.0", "LARCENY,GRAND BY BANK ACCT COMPROMISE-REPRODUCED CHECK", "COMPLETED", "FELONY", "N.Y. POLICE DEPT", "MANHATTAN", "33", "INSIDE", "MAILBOX INSIDE", null, null, "1001540.0", "244426.0", "40.837559515", "-73.937516953", [ null, "40.837559515", "-73.937516953", null, false ] ]
+  , [ 73639, "249FFAC9-F376-416F-B958-AB82CFB765B5", 73639, 1528395194, "399231", 1528395194, "399231", null, "448444127", "2016-02-29T00:00:00", "15:39:00", "2018-01-31T00:00:00", "12:00:00", "2018-01-31T00:00:00", "361", "OFF. AGNST PUB ORD SENSBLTY &", "639.0", "AGGRAVATED HARASSMENT 2", "COMPLETED", "MISDEMEANOR", "N.Y. POLICE DEPT", "MANHATTAN", "18", "INSIDE", "GYM/FITNESS FACILITY", null, null, "986636.0", "219002.0", "40.767794199", "-73.991387694", [ null, "40.767794199", "-73.991387694", null, false ] ]
+  , [ 86734, "227EB7E0-FBD6-41E5-9EF9-DFF53D3E8D9D", 86734, 1528395200, "399231", 1528395200, "399231", null, "686143943", "2016-03-01T00:00:00", "14:00:00", "2018-01-21T00:00:00", "20:30:00", "2018-01-21T00:00:00", "361", "OFF. AGNST PUB ORD SENSBLTY &", "639.0", "AGGRAVATED HARASSMENT 2", "COMPLETED", "MISDEMEANOR", "N.Y. POLICE DEPT", "MANHATTAN", "30", "INSIDE", "RESIDENCE - APT. HOUSE", null, null, "998060.0", "240479.0", "40.826732261", "-73.950101481", [ null, "40.826732261", "-73.950101481", null, false ] ]
+  , [ 72306, "E883EA0E-C272-4FA9-975D-92A07A337CC6", 72306, 1528395194, "399231", 1528395194, "399231", null, "159227663", "2016-03-02T00:00:00", "17:32:00", "2016-03-02T00:00:00", "17:48:00", "2018-02-01T00:00:00", "341", "PETIT LARCENY", "339.0", "LARCENY,PETIT FROM OPEN AREAS,", "COMPLETED", "MISDEMEANOR", "N.Y. TRANSIT POLICE", "MANHATTAN", "1", null, "TRANSIT - NYC SUBWAY", null, null, "982466.0", "197787.0", "40.709564416", "-74.006436281", [ null, "40.709564416", "-74.006436281", null, false ] ]
+  , [ 19565, "26AA075B-B8A2-4393-A5A6-C74F0FAFD3A2", 19565, 1528395169, "399231", 1528395169, "399231", null, "106075901", "2016-03-15T00:00:00", "14:00:00", "2018-03-15T00:00:00", "14:15:00", "2018-03-16T00:00:00", "578", "HARRASSMENT 2", "638.0", "HARASSMENT,SUBD 3,4,5", "COMPLETED", "VIOLATION", "N.Y. POLICE DEPT", "MANHATTAN", "33", "FRONT OF", "RESIDENCE - APT. HOUSE", null, null, "1001188.0", "248123.0", "40.84770738", "-73.938779711", [ null, "40.84770738", "-73.938779711", null, false ] ]
+  , [ 11331, "EAA116DE-17C6-4AD8-8E07-6B0A63EA34EC", 11331, 1528395166, "399231", 1528395166, "399231", null, "505568154", "2016-03-23T00:00:00", "20:20:00", "2018-03-23T00:00:00", "20:26:00", "2018-03-23T00:00:00", "578", "HARRASSMENT 2", "637.0", "HARASSMENT,SUBD 1,CIVILIAN", "COMPLETED", "VIOLATION", "N.Y. POLICE DEPT", "MANHATTAN", "19", "INSIDE", "TAXI (YELLOW LICENSED)", null, null, "997016.0", "219318.0", "40.768652643", "-73.953914012", [ null, "40.768652643", "-73.953914012", null, false ] ]
+  , [ 36091, "974041B5-B472-4214-B68E-3FA8C8A92F7B", 36091, 1528395177, "399231", 1528395177, "399231", null, "457866398", "2016-04-04T00:00:00", "09:00:00", "2018-01-29T00:00:00", "10:55:00", "2018-03-02T00:00:00", "109", "GRAND LARCENY", "426.0", "LARCENY,GRAND BY BANK ACCT COMPROMISE-TELLER", "COMPLETED", "FELONY", "N.Y. POLICE DEPT", "MANHATTAN", "20", "INSIDE", "RESIDENCE - APT. HOUSE", null, null, "989004.0", "220120.0", "40.770861863", "-73.982838131", [ null, "40.770861863", "-73.982838131", null, false ] ]
+  , [ 14698, "E15EA191-3A23-4EC2-9FDA-C8C953F3FD1A", 14698, 1528395167, "399231", 1528395167, "399231", null, "286293788", "2016-04-11T00:00:00", "00:00:00", "2016-04-11T00:00:00", "23:59:00", "2018-03-20T00:00:00", "340", "FRAUDS", "718.0", "FRAUD,UNCLASSIFIED-MISDEMEANOR", "ATTEMPTED", "MISDEMEANOR", "N.Y. POLICE DEPT", "MANHATTAN", "20", "INSIDE", "RESIDENCE - APT. HOUSE", null, null, "990708.0", "221712.0", "40.775230406", "-73.976684667", [ null, "40.775230406", "-73.976684667", null, false ] ]
+  , [ 57647, "19723911-1810-495C-8D76-E4D26F75FA61", 57647, 1528395187, "399231", 1528395187, "399231", null, "899377173", "2016-04-19T00:00:00", "06:25:00", null, null, "2018-02-13T00:00:00", "112", "THEFT-FRAUD", "739.0", "FRAUD,UNCLASSIFIED-FELONY", "COMPLETED", "FELONY", "N.Y. POLICE DEPT", "MANHATTAN", "26", null, "STREET", null, null, "994488.0", "235340.0", "40.812632015", "-73.963016104", [ null, "40.812632015", "-73.963016104", null, false ] ]
+  , [ 66267, "EC17B54D-6139-45CF-850F-C55EE908D3B4", 66267, 1528395191, "399231", 1528395191, "399231", null, "779038663", "2016-04-22T00:00:00", "00:00:00", "2016-04-22T00:00:00", "02:00:00", "2018-02-06T00:00:00", "104", "RAPE", "157.0", "RAPE 1", "COMPLETED", "FELONY", "N.Y. POLICE DEPT", "MANHATTAN", "9", "INSIDE", "RESIDENCE - APT. HOUSE", null, null, "987624.0", "203977.0", "40.726554019", "-73.987828427", [ null, "40.726554019", "-73.987828427", null, false ] ]
+  , [ 37462, "3A28488C-2C31-4D39-BCC5-4D44C163920C", 37462, 1528395178, "399231", 1528395178, "399231", null, "551308817", "2016-05-01T00:00:00", "00:00:00", "2016-05-31T00:00:00", "00:00:00", "2018-03-01T00:00:00", "104", "RAPE", "157.0", "RAPE 1", "COMPLETED", "FELONY", "N.Y. POLICE DEPT", "MANHATTAN", "26", null, "RESIDENCE - APT. HOUSE", null, null, "996241.0", "236149.0", "40.814850289", "-73.956681848", [ null, "40.814850289", "-73.956681848", null, false ] ]
+  , [ 62430, "832B9810-6B31-40E6-A842-248FE677F3E1", 62430, 1528395189, "399231", 1528395189, "399231", null, "496117679", "2016-05-01T00:00:00", "08:00:00", "2017-12-01T00:00:00", "14:00:00", "2018-02-09T00:00:00", "112", "THEFT-FRAUD", "739.0", "FRAUD,UNCLASSIFIED-FELONY", "COMPLETED", "FELONY", "N.Y. POLICE DEPT", "MANHATTAN", "30", "INSIDE", "RESIDENCE - APT. HOUSE", null, null, "996123.0", "238528.0", "40.821380135", "-73.957103936", [ null, "40.821380135", "-73.957103936", null, false ] ]
+  , [ 74926, "7A584661-454F-4B3F-B907-6913F0D8D413", 74926, 1528395195, "399231", 1528395195, "399231", null, "258293148", "2016-05-01T00:00:00", "19:36:00", null, null, "2018-01-30T00:00:00", "112", "THEFT-FRAUD", "739.0", "FRAUD,UNCLASSIFIED-FELONY", "COMPLETED", "FELONY", "N.Y. POLICE DEPT", "MANHATTAN", "6", "INSIDE", "RESIDENCE-HOUSE", null, null, "986160.0", "205842.0", "40.731673428", "-73.993109848", [ null, "40.731673428", "-73.993109848", null, false ] ]
+  , [ 78668, "1F61BF85-4C1D-4E7E-A63C-08CB35F1CF4C", 78668, 1528395197, "399231", 1528395197, "399231", null, "907306848", "2016-05-05T00:00:00", "17:00:00", "2018-01-26T00:00:00", "19:00:00", "2018-01-27T00:00:00", "578", "HARRASSMENT 2", "638.0", "HARASSMENT,SUBD 3,4,5", "COMPLETED", "VIOLATION", "N.Y. POLICE DEPT", "MANHATTAN", "33", "INSIDE", "RESIDENCE - APT. HOUSE", null, null, "999949.0", "245202.0", "40.839692381", "-73.943264864", [ null, "40.839692381", "-73.943264864", null, false ] ]
+  , [ 86733, "FEF5EAF3-386A-4C8A-9551-D042F03EDA63", 86733, 1528395200, "399231", 1528395200, "399231", null, "445074434", "2016-05-05T00:00:00", "14:25:00", "2017-01-11T00:00:00", "08:00:00", "2018-01-21T00:00:00", "112", "THEFT-FRAUD", "739.0", "FRAUD,UNCLASSIFIED-FELONY", "COMPLETED", "FELONY", "N.Y. POLICE DEPT", "MANHATTAN", "24", "INSIDE", "RESIDENCE - APT. HOUSE", null, null, "992485.0", "230976.0", "40.800656132", "-73.970257405", [ null, "40.800656132", "-73.970257405", null, false ] ]
+  , [ 6442, "32C1209F-2431-447C-B549-F51C6C93F1D5", 6442, 1528395163, "399231", 1528395163, "399231", null, "682925190", "2016-06-01T00:00:00", "00:01:00", "2016-09-25T00:00:00", "23:59:00", "2018-03-27T00:00:00", "109", "GRAND LARCENY", "437.0", "LARCENY,GRAND BY FALSE PROMISE-IN PERSON CONTACT", "COMPLETED", "FELONY", "N.Y. POLICE DEPT", "MANHATTAN", "14", "FRONT OF", "STREET", null, null, "987965.0", "215284.0", "40.757588785", "-73.986591894", [ null, "40.757588785", "-73.986591894", null, false ] ]
+  , [ 12577, "16D35DDB-AA1D-4937-A9D6-BC1DAC6AC799", 12577, 1528395166, "399231", 1528395166, "399231", null, "527382284", "2016-06-01T00:00:00", "08:00:00", "2018-03-22T00:00:00", "12:00:00", "2018-03-22T00:00:00", "109", "GRAND LARCENY", "407.0", "LARCENY,GRAND BY DISHONEST EMP", "COMPLETED", "FELONY", "N.Y. POLICE DEPT", "MANHATTAN", "19", "INSIDE", "RESIDENCE - APT. HOUSE", null, null, "993996.0", "221293.0", "40.774077348", "-73.964813863", [ null, "40.774077348", "-73.964813863", null, false ] ]
+  , [ 76228, "BC4C463A-6430-4509-85D1-8476CD8E230A", 76228, 1528395195, "399231", 1528395195, "399231", null, "708890817", "2016-06-01T00:00:00", "00:05:00", "2018-02-01T00:00:00", "09:00:00", "2018-01-29T00:00:00", "104", "RAPE", "157.0", "RAPE 1", "COMPLETED", "FELONY", "N.Y. HOUSING POLICE", "MANHATTAN", "26", "INSIDE", "RESIDENCE - PUBLIC HOUSING", null, null, "996241.0", "236149.0", "40.814850289", "-73.956681848", [ null, "40.814850289", "-73.956681848", null, false ] ]
+  , [ 100320, "F20384B0-EC49-4DA6-B468-AC585F6FC45A", 100320, 1528395206, "399231", 1528395206, "399231", null, "695277773", "2016-06-01T00:00:00", "21:00:00", "2016-07-24T00:00:00", "21:00:00", "2018-01-10T00:00:00", "104", "RAPE", "153.0", "RAPE 3", "COMPLETED", "FELONY", "N.Y. POLICE DEPT", "MANHATTAN", "34", "INSIDE", "RESIDENCE - APT. HOUSE", null, null, "1002106.0", "249501.0", "40.851487774", "-73.935457967", [ null, "40.851487774", "-73.935457967", null, false ] ]
+  , [ 89255, "88B070A0-6E72-4325-AAC2-B79466E6290B", 89255, 1528395201, "399231", 1528395201, "399231", null, "858468480", "2016-06-03T00:00:00", "17:48:00", null, null, "2018-01-19T00:00:00", "113", "FORGERY", "729.0", "FORGERY,ETC.,UNCLASSIFIED-FELO", "COMPLETED", "FELONY", "N.Y. POLICE DEPT", "MANHATTAN", "14", "INSIDE", "BANK", null, null, "986360.0", "215716.0", "40.758775044", "-73.992385119", [ null, "40.758775044", "-73.992385119", null, false ] ]
+  , [ 66266, "AA8F396D-9B7E-41D8-819B-9BDBBDF54E2B", 66266, 1528395191, "399231", 1528395191, "399231", null, "606314444", "2016-06-06T00:00:00", "15:00:00", "2018-02-06T00:00:00", "07:00:00", "2018-02-06T00:00:00", "113", "FORGERY", "729.0", "FORGERY,ETC.,UNCLASSIFIED-FELO", "COMPLETED", "FELONY", "N.Y. POLICE DEPT", "MANHATTAN", "5", "INSIDE", "RESIDENCE-HOUSE", null, null, "983903.0", "200257.0", "40.716344152", "-74.001253193", [ null, "40.716344152", "-74.001253193", null, false ] ]
+  , [ 89254, "6D10DA6A-F0FF-48C0-A772-C3176E316069", 89254, 1528395201, "399231", 1528395201, "399231", null, "944375976", "2016-06-06T00:00:00", "18:31:00", null, null, "2018-01-19T00:00:00", "113", "FORGERY", "729.0", "FORGERY,ETC.,UNCLASSIFIED-FELO", "COMPLETED", "FELONY", "N.Y. POLICE DEPT", "MANHATTAN", "19", "INSIDE", "BANK", null, null, "996482.0", "223147.0", "40.779163", "-73.955834874", [ null, "40.779163", "-73.955834874", null, false ] ]
+  , [ 89253, "DAF8C552-F5B7-4399-81B2-936F4E55DA82", 89253, 1528395201, "399231", 1528395201, "399231", null, "104427608", "2016-06-07T00:00:00", "14:33:00", null, null, "2018-01-19T00:00:00", "113", "FORGERY", "729.0", "FORGERY,ETC.,UNCLASSIFIED-FELO", "COMPLETED", "FELONY", "N.Y. POLICE DEPT", "MANHATTAN", "19", "INSIDE", "BANK", null, null, "996482.0", "223147.0", "40.779163", "-73.955834874", [ null, "40.779163", "-73.955834874", null, false ] ]
+  , [ 89252, "E2B91E6C-12A5-4421-812A-D8434EDDE6BE", 89252, 1528395201, "399231", 1528395201, "399231", null, "597676764", "2016-06-08T00:00:00", "16:05:00", null, null, "2018-01-19T00:00:00", "113", "FORGERY", "729.0", "FORGERY,ETC.,UNCLASSIFIED-FELO", "COMPLETED", "FELONY", "N.Y. POLICE DEPT", "MANHATTAN", "14", "INSIDE", "BANK", null, null, "987045.0", "213240.0", "40.751978863", "-73.989913548", [ null, "40.751978863", "-73.989913548", null, false ] ]
+  , [ 47512, "E3C2D601-0A90-40C9-8D4D-182FAC0F9F51", 47512, 1528395182, "399231", 1528395182, "399231", null, "697631682", "2016-06-09T00:00:00", "08:00:00", "2017-06-30T00:00:00", "08:00:00", "2018-02-21T00:00:00", "340", "FRAUDS", "718.0", "FRAUD,UNCLASSIFIED-MISDEMEANOR", "COMPLETED", "MISDEMEANOR", "N.Y. POLICE DEPT", "MANHATTAN", "24", "INSIDE", "CHAIN STORE", null, null, "993311.0", "231911.0", "40.803221643", "-73.967272709", [ null, "40.803221643", "-73.967272709", null, false ] ]
+  , [ 89250, "D9F8EEB0-26C1-42C1-8FE8-45B341DFA217", 89250, 1528395201, "399231", 1528395201, "399231", null, "553004874", "2016-06-09T00:00:00", "18:48:00", null, null, "2018-01-19T00:00:00", "113", "FORGERY", "729.0", "FORGERY,ETC.,UNCLASSIFIED-FELO", "COMPLETED", "FELONY", "N.Y. POLICE DEPT", "MANHATTAN", "20", "INSIDE", "BANK", null, null, "989155.0", "221677.0", "40.775135338", "-73.982291841", [ null, "40.775135338", "-73.982291841", null, false ] ]
+  , [ 89251, "186EB15A-7E48-42D4-9C53-34270DF32BE9", 89251, 1528395201, "399231", 1528395201, "399231", null, "646164483", "2016-06-09T00:00:00", "18:38:00", null, null, "2018-01-19T00:00:00", "113", "FORGERY", "729.0", "FORGERY,ETC.,UNCLASSIFIED-FELO", "COMPLETED", "FELONY", "N.Y. POLICE DEPT", "MANHATTAN", "20", "INSIDE", "BANK", null, null, "988982.0", "223466.0", "40.780045767", "-73.982915201", [ null, "40.780045767", "-73.982915201", null, false ] ]
+  , [ 89249, "9FDA7EA3-9C31-4231-A86C-A9F3D4128190", 89249, 1528395201, "399231", 1528395201, "399231", null, "769951025", "2016-06-11T00:00:00", "17:19:00", null, null, "2018-01-19T00:00:00", "113", "FORGERY", "729.0", "FORGERY,ETC.,UNCLASSIFIED-FELO", "COMPLETED", "FELONY", "N.Y. POLICE DEPT", "MANHATTAN", "14", "INSIDE", "BANK", null, null, "987666.0", "214366.0", "40.75506923", "-73.987671622", [ null, "40.75506923", "-73.987671622", null, false ] ]
+  , [ 89247, "0AC406D5-13FB-44DD-8D1B-9CD366F7A7F9", 89247, 1528395201, "399231", 1528395201, "399231", null, "463482947", "2016-06-13T00:00:00", "17:54:00", null, null, "2018-01-19T00:00:00", "113", "FORGERY", "729.0", "FORGERY,ETC.,UNCLASSIFIED-FELO", "COMPLETED", "FELONY", "N.Y. POLICE DEPT", "MANHATTAN", "24", "INSIDE", "BANK", null, null, "993380.0", "232164.0", "40.803915987", "-73.967023133", [ null, "40.803915987", "-73.967023133", null, false ] ]
+  , [ 89248, "ADCD1ED0-B0A1-4A40-B7CD-7C6ACB69C1E6", 89248, 1528395201, "399231", 1528395201, "399231", null, "640308784", "2016-06-13T00:00:00", "14:17:00", null, null, "2018-01-19T00:00:00", "113", "FORGERY", "729.0", "FORGERY,ETC.,UNCLASSIFIED-FELO", "COMPLETED", "FELONY", "N.Y. POLICE DEPT", "MANHATTAN", "20", "INSIDE", "BANK", null, null, "988982.0", "223466.0", "40.780045767", "-73.982915201", [ null, "40.780045767", "-73.982915201", null, false ] ]
+  , [ 89246, "EC8AB206-6BDB-454D-89B6-5D661447ED6F", 89246, 1528395201, "399231", 1528395201, "399231", null, "221924532", "2016-06-14T00:00:00", "13:28:00", null, null, "2018-01-19T00:00:00", "113", "FORGERY", "729.0", "FORGERY,ETC.,UNCLASSIFIED-FELO", "COMPLETED", "FELONY", "N.Y. POLICE DEPT", "MANHATTAN", "20", "INSIDE", "BANK", null, null, "988982.0", "223466.0", "40.780045767", "-73.982915201", [ null, "40.780045767", "-73.982915201", null, false ] ]
+  , [ 89244, "B5881B3D-553E-4B9E-89F2-C8EB8B2AF0BF", 89244, 1528395201, "399231", 1528395201, "399231", null, "629541090", "2016-06-15T00:00:00", "21:09:00", null, null, "2018-01-19T00:00:00", "113", "FORGERY", "729.0", "FORGERY,ETC.,UNCLASSIFIED-FELO", "COMPLETED", "FELONY", "N.Y. POLICE DEPT", "MANHATTAN", "19", "INSIDE", "BANK", null, null, "996482.0", "223147.0", "40.779163", "-73.955834874", [ null, "40.779163", "-73.955834874", null, false ] ]
+  , [ 89245, "C40C9D0D-1160-4ADC-ABA3-2B999D440A9C", 89245, 1528395201, "399231", 1528395201, "399231", null, "197734787", "2016-06-15T00:00:00", "19:33:00", null, null, "2018-01-19T00:00:00", "113", "FORGERY", "729.0", "FORGERY,ETC.,UNCLASSIFIED-FELO", "COMPLETED", "FELONY", "N.Y. POLICE DEPT", "MANHATTAN", "19", "INSIDE", "BANK", null, null, "996482.0", "223147.0", "40.779163", "-73.955834874", [ null, "40.779163", "-73.955834874", null, false ] ]
+  , [ 76227, "B41E0442-F169-432F-98C3-538372A34318", 76227, 1528395195, "399231", 1528395195, "399231", null, "335007714", "2016-06-16T00:00:00", "13:00:00", "2018-01-20T00:00:00", "16:00:00", "2018-01-29T00:00:00", "578", "HARRASSMENT 2", "638.0", "HARASSMENT,SUBD 3,4,5", "COMPLETED", "VIOLATION", "N.Y. POLICE DEPT", "MANHATTAN", "19", "INSIDE", "HOTEL/MOTEL", null, null, "994554.0", "221287.0", "40.774060247", "-73.962799233", [ null, "40.774060247", "-73.962799233", null, false ] ]
+  , [ 18307, "4107828F-4D9B-411C-BF77-2EE7F4A439F9", 18307, 1528395169, "399231", 1528395169, "399231", null, "952533584", "2016-07-01T00:00:00", "08:00:00", "2016-07-31T00:00:00", "20:00:00", "2018-03-17T00:00:00", "109", "GRAND LARCENY", "432.0", "LARCENY,GRAND BY IDENTITY THEFT-UNCLASSIFIED", "COMPLETED", "FELONY", "N.Y. POLICE DEPT", "MANHATTAN", "34", "INSIDE", "RESIDENCE - APT. HOUSE", null, null, "1002644.0", "250694.0", "40.854761099", "-73.933510004", [ null, "40.854761099", "-73.933510004", null, false ] ]
+  , [ 62428, "4574E196-2A41-4A7B-8925-A4B029F63AC9", 62428, 1528395189, "399231", 1528395189, "399231", null, "693483150", "2016-07-01T00:00:00", "09:02:00", "2018-02-09T00:00:00", "08:45:00", "2018-02-09T00:00:00", "361", "OFF. AGNST PUB ORD SENSBLTY &", "639.0", "AGGRAVATED HARASSMENT 2", "COMPLETED", "MISDEMEANOR", "N.Y. POLICE DEPT", "MANHATTAN", "13", "INSIDE", "RESIDENCE - APT. HOUSE", null, null, "991583.0", "208144.0", "40.737989018", "-73.973540251", [ null, "40.737989018", "-73.973540251", null, false ] ]
+  , [ 108519, "DD03B585-D93F-48BA-BB63-DE4E3F87301F", 108519, 1528395210, "399231", 1528395210, "399231", null, "870344960", "2016-07-01T00:00:00", "09:00:00", "2017-12-29T00:00:00", "14:16:00", "2018-01-02T00:00:00", "578", "HARRASSMENT 2", "638.0", "HARASSMENT,SUBD 3,4,5", "COMPLETED", "VIOLATION", "N.Y. POLICE DEPT", "MANHATTAN", "19", "INSIDE", "RESIDENCE - APT. HOUSE", null, null, "999358.0", "222038.0", "40.776114639", "-73.945452881", [ null, "40.776114639", "-73.945452881", null, false ] ]
+  , [ 30209, "2715C717-8013-453B-A261-99E394867B64", 30209, 1528395174, "399231", 1528395174, "399231", null, "148431292", "2016-07-02T00:00:00", "19:00:00", "2016-09-30T00:00:00", "12:00:00", "2018-03-07T00:00:00", "109", "GRAND LARCENY", "412.0", "LARCENY,GRAND FROM RESIDENCE, UNATTENDED", "COMPLETED", "FELONY", "N.Y. POLICE DEPT", "MANHATTAN", "26", "INSIDE", "RESIDENCE - APT. HOUSE", null, null, "996463.0", "235457.0", "40.812950638", "-73.955881094", [ null, "40.812950638", "-73.955881094", null, false ] ]
+  , [ 48907, "75032C2A-0C44-4685-BE5F-331914D6E0A3", 48907, 1528395183, "399231", 1528395183, "399231", null, "329425264", "2016-07-26T00:00:00", "11:22:00", null, null, "2018-02-20T00:00:00", "121", "CRIMINAL MISCHIEF & RELATED OF", "273.0", "TAMPERING 1,CRIMINAL", "COMPLETED", "FELONY", "N.Y. TRANSIT POLICE", "MANHATTAN", "23", null, "TRANSIT - NYC SUBWAY", null, null, "999643.0", "228852.0", "40.79481676", "-73.944408254", [ null, "40.79481676", "-73.944408254", null, false ] ]
+  , [ 47509, "9951A0B9-59D3-416E-B97E-4FFBD43D9A47", 47509, 1528395182, "399231", 1528395182, "399231", null, "325815702", "2016-08-01T00:00:00", "12:00:00", "2018-02-18T00:00:00", "17:00:00", "2018-02-21T00:00:00", "578", "HARRASSMENT 2", "638.0", "HARASSMENT,SUBD 3,4,5", "COMPLETED", "VIOLATION", "N.Y. POLICE DEPT", "MANHATTAN", "23", null, "RESIDENCE - APT. HOUSE", null, null, "1000142.0", "225685.0", "40.786123314", "-73.942613564", [ null, "40.786123314", "-73.942613564", null, false ] ]
+  , [ 76226, "0791CF3A-3AC5-41F3-87B9-B0841D65576E", 76226, 1528395195, "399231", 1528395195, "399231", null, "862366385", "2016-08-01T00:00:00", "09:00:00", null, null, "2018-01-29T00:00:00", "341", "PETIT LARCENY", "349.0", "LARCENY,PETIT OF LICENSE PLATE", "COMPLETED", "MISDEMEANOR", "N.Y. POLICE DEPT", "MANHATTAN", "13", "INSIDE", "RESIDENCE - APT. HOUSE", null, null, "989866.0", "208688.0", "40.73948342", "-73.979735608", [ null, "40.73948342", "-73.979735608", null, false ] ]
+  , [ 102689, "E6B44A81-3AE7-4472-83A9-6D0A14EDCA01", 102689, 1528395208, "399231", 1528395208, "399231", null, "139829439", "2016-08-13T00:00:00", "12:00:00", "2017-12-27T00:00:00", "08:56:00", "2018-01-08T00:00:00", "361", "OFF. AGNST PUB ORD SENSBLTY &", "639.0", "AGGRAVATED HARASSMENT 2", "COMPLETED", "MISDEMEANOR", "N.Y. POLICE DEPT", "MANHATTAN", "1", "INSIDE", "RESIDENCE - APT. HOUSE", null, null, "980219.0", "197152.0", "40.707820753", "-74.014540763", [ null, "40.707820753", "-74.014540763", null, false ] ]
+  , [ 23344, "1B284E01-1F9B-4E9C-9B22-CD6376E77689", 23344, 1528395171, "399231", 1528395171, "399231", null, "684646033", "2016-08-15T00:00:00", "13:00:00", "2016-10-15T00:00:00", "15:00:00", "2018-03-13T00:00:00", "109", "GRAND LARCENY", "402.0", "LARCENY,GRAND BY FALSE PROMISE-NOT IN PERSON CONTACT", "COMPLETED", "FELONY", "N.Y. POLICE DEPT", "MANHATTAN", "19", "INSIDE", "RESIDENCE - APT. HOUSE", null, null, "996001.0", "223898.0", "40.781224949", "-73.957570326", [ null, "40.781224949", "-73.957570326", null, false ] ]
+  , [ 73638, "2579C01D-9AE8-4A19-9196-91F57E29EFBB", 73638, 1528395194, "399231", 1528395194, "399231", null, "100477752", "2016-08-19T00:00:00", "22:00:00", "2018-01-31T00:00:00", "22:26:00", "2018-01-31T00:00:00", "361", "OFF. AGNST PUB ORD SENSBLTY &", "639.0", "AGGRAVATED HARASSMENT 2", "COMPLETED", "MISDEMEANOR", "N.Y. POLICE DEPT", "MANHATTAN", "34", "INSIDE", "RESIDENCE - APT. HOUSE", null, null, "1004150.0", "249306.0", "40.850948187", "-73.928070171", [ null, "40.850948187", "-73.928070171", null, false ] ]
+  , [ 13445, "01CC05C7-BFD0-4D9A-BF82-3B29AB420845", 13445, 1528395167, "399231", 1528395167, "399231", null, "945251750", "2016-09-01T00:00:00", "16:00:00", null, null, "2018-03-21T00:00:00", "112", "THEFT-FRAUD", "739.0", "FRAUD,UNCLASSIFIED-FELONY", "COMPLETED", "FELONY", "N.Y. POLICE DEPT", "MANHATTAN", "17", "OPPOSITE OF", "STREET", null, null, "992532.0", "212752.0", "40.75063599", "-73.970110103", [ null, "40.75063599", "-73.970110103", null, false ] ]
+  , [ 58961, "0C294FE5-48A3-433E-908B-149D75349CBF", 58961, 1528395187, "399231", 1528395187, "399231", null, "595262294", "2016-09-01T00:00:00", "12:00:00", "2018-02-12T00:00:00", "14:20:00", "2018-02-12T00:00:00", "361", "OFF. AGNST PUB ORD SENSBLTY &", "639.0", "AGGRAVATED HARASSMENT 2", "COMPLETED", "MISDEMEANOR", "N.Y. POLICE DEPT", "MANHATTAN", "1", "INSIDE", "RESIDENCE - APT. HOUSE", null, null, "982276.0", "196845.0", "40.706978808", "-74.007121329", [ null, "40.706978808", "-74.007121329", null, false ] ]
+  , [ 77350, "943A9B26-3F4B-4EC7-9A8C-46ECAF02F0BB", 77350, 1528395196, "399231", 1528395196, "399231", null, "436766371", "2016-09-01T00:00:00", "01:00:00", "2017-08-01T00:00:00", "01:00:00", "2018-01-28T00:00:00", "109", "GRAND LARCENY", "434.0", "LARCENY,GRAND BY OPEN BANK ACCT", "COMPLETED", "FELONY", "N.Y. POLICE DEPT", "MANHATTAN", "25", "INSIDE", "RESIDENCE - APT. HOUSE", null, null, "1002134.0", "233838.0", "40.808497274", "-73.935398508", [ null, "40.808497274", "-73.935398508", null, false ] ]
+  , [ 31602, "16BB22BE-FCC5-4B46-A152-C0FE0BBF7C24", 31602, 1528395175, "399231", 1528395175, "399231", null, "701495554", "2016-09-02T00:00:00", "00:00:00", "2016-09-12T00:00:00", "00:00:00", "2018-03-06T00:00:00", "125", "NYS LAWS-UNCLASSIFIED FELONY", "847.0", "NY STATE LAWS,UNCLASSIFIED FEL", "COMPLETED", "FELONY", "N.Y. POLICE DEPT", "MANHATTAN", "5", "INSIDE", "PUBLIC BUILDING", null, null, "983903.0", "200257.0", "40.716344152", "-74.001253193", [ null, "40.716344152", "-74.001253193", null, false ] ]
+  , [ 94211, "0474141B-B4D6-40AC-A994-ACCA4CA1A75E", 94211, 1528395204, "399231", 1528395204, "399231", null, "277173491", "2016-09-02T00:00:00", "09:00:00", "2018-01-15T00:00:00", "11:00:00", "2018-01-15T00:00:00", "109", "GRAND LARCENY", "438.0", "LARCENY,GRAND FROM BUILDING (NON-RESIDENCE) UNATTENDED", "COMPLETED", "FELONY", "N.Y. POLICE DEPT", "MANHATTAN", "34", "INSIDE", "RESIDENCE - APT. HOUSE", null, null, "1001534.0", "248877.0", "40.849776217", "-73.937527165", [ null, "40.849776217", "-73.937527165", null, false ] ]
+  , [ 12575, "69A0B022-CD6E-45A1-ABE3-869DCC435337", 12575, 1528395166, "399231", 1528395166, "399231", null, "284926241", "2016-09-06T00:00:00", "12:00:00", "2016-09-22T00:00:00", "15:30:00", "2018-03-22T00:00:00", "121", "CRIMINAL MISCHIEF & RELATED OF", "268.0", "CRIMINAL MIS 2 & 3", "COMPLETED", "FELONY", "N.Y. TRANSIT POLICE", "MANHATTAN", "5", null, "TRANSIT FACILITY (OTHER)", null, null, "983125.0", "199091.0", "40.713143696", "-74.004059506", [ null, "40.713143696", "-74.004059506", null, false ] ]
+  , [ 7685, "CCCA1CDC-3E40-4402-844B-5C099249948A", 7685, 1528395164, "399231", 1528395164, "399231", null, "225733764", "2016-09-09T00:00:00", "12:00:00", null, null, "2018-03-26T00:00:00", "578", "HARRASSMENT 2", "638.0", "HARASSMENT,SUBD 3,4,5", "COMPLETED", "VIOLATION", "N.Y. POLICE DEPT", "MANHATTAN", "13", "INSIDE", "COMMERCIAL BUILDING", null, null, "987060.0", "208451.0", "40.738834251", "-73.98986141", [ null, "40.738834251", "-73.98986141", null, false ] ]
+  , [ 72305, "0F3C7661-28CD-4848-9F18-2E2F208D0B3B", 72305, 1528395194, "399231", 1528395194, "399231", null, "243244452", "2016-09-15T00:00:00", "10:00:00", "2018-02-01T00:00:00", "11:00:00", "2018-02-01T00:00:00", "578", "HARRASSMENT 2", "638.0", "HARASSMENT,SUBD 3,4,5", "COMPLETED", "VIOLATION", "N.Y. POLICE DEPT", "MANHATTAN", "24", "INSIDE", "RESIDENCE - APT. HOUSE", null, null, "992848.0", "228356.0", "40.793464597", "-73.968949638", [ null, "40.793464597", "-73.968949638", null, false ] ]
+  , [ 53563, "30626DFA-4A44-4987-ADFE-B118D028FEC9", 53563, 1528395185, "399231", 1528395185, "399231", null, "757632455", "2016-09-20T00:00:00", "09:00:00", null, null, "2018-02-16T00:00:00", "344", "ASSAULT 3 & RELATED OFFENSES", "101.0", "ASSAULT 3", "COMPLETED", "MISDEMEANOR", "N.Y. POLICE DEPT", "MANHATTAN", "6", "INSIDE", "RESIDENCE - APT. HOUSE", null, null, "985324.0", "204347.0", "40.727570158", "-73.996126514", [ null, "40.727570158", "-73.996126514", null, false ] ]
+  , [ 99017, "6BE6B0CC-3765-4754-8612-A0FA3A7499FF", 99017, 1528395206, "399231", 1528395206, "399231", null, "424029434", "2016-10-04T00:00:00", "23:30:00", "2016-10-04T00:00:00", "23:55:00", "2018-01-11T00:00:00", "104", "RAPE", "157.0", "RAPE 1", "COMPLETED", "FELONY", "N.Y. POLICE DEPT", "MANHATTAN", "28", "INSIDE", "RESIDENCE - APT. HOUSE", null, null, "997376.0", "233927.0", "40.808749904", "-73.952585806", [ null, "40.808749904", "-73.952585806", null, false ] ]
+  , [ 6441, "B2CAFB3A-500C-48CC-9C8B-95D5B032D39E", 6441, 1528395163, "399231", 1528395163, "399231", null, "506600460", "2016-10-07T00:00:00", "00:01:00", "2016-10-31T00:00:00", "23:59:00", "2018-03-27T00:00:00", "233", "SEX CRIMES", "175.0", "SEXUAL ABUSE 3,2", "COMPLETED", "MISDEMEANOR", "N.Y. POLICE DEPT", "MANHATTAN", "28", "INSIDE", "RESIDENCE - APT. HOUSE", null, null, "997376.0", "233927.0", "40.808749904", "-73.952585806", [ null, "40.808749904", "-73.952585806", null, false ] ]
+  , [ 47507, "DB44FB77-F009-4770-A8AF-030FAC56AC4D", 47507, 1528395182, "399231", 1528395182, "399231", null, "220455611", "2016-10-16T00:00:00", "00:01:00", "2017-06-14T00:00:00", "12:00:00", "2018-02-21T00:00:00", "109", "GRAND LARCENY", "422.0", "LARCENY,GRAND BY OPEN CREDIT CARD (NEW ACCT)", "COMPLETED", "FELONY", "N.Y. POLICE DEPT", "MANHATTAN", "24", "INSIDE", "RESIDENCE - APT. HOUSE", null, null, "992256.0", "228214.0", "40.793075401", "-73.971087823", [ null, "40.793075401", "-73.971087823", null, false ] ]
+  , [ 33934, "FD621B23-6049-4168-A049-6C706F3B9BA9", 33934, 1528395176, "399231", 1528395176, "399231", null, "941936407", "2016-10-17T00:00:00", "02:00:00", "2018-03-04T00:00:00", "16:00:00", "2018-03-04T00:00:00", "340", "FRAUDS", "718.0", "FRAUD,UNCLASSIFIED-MISDEMEANOR", "COMPLETED", "MISDEMEANOR", "N.Y. HOUSING POLICE", "MANHATTAN", "7", "INSIDE", "RESIDENCE - PUBLIC HOUSING", null, "BARUCH", "990933.0", "200320.0", "40.716514555", "-73.975893551", [ null, "40.716514555", "-73.975893551", null, false ] ]
+  , [ 47506, "D68C3622-7174-46E4-ADD2-D4802BB5B553", 47506, 1528395182, "399231", 1528395182, "399231", null, "424018878", "2016-10-26T00:00:00", "08:00:00", "2018-01-05T00:00:00", "17:00:00", "2018-02-21T00:00:00", "109", "GRAND LARCENY", "422.0", "LARCENY,GRAND BY OPEN CREDIT CARD (NEW ACCT)", "COMPLETED", "FELONY", "N.Y. POLICE DEPT", "MANHATTAN", "34", "INSIDE", "RESIDENCE - APT. HOUSE", null, null, "1003438.0", "251058.0", "40.855758481", "-73.930638777", [ null, "40.855758481", "-73.930638777", null, false ] ]
+  , [ 58958, "83D4935C-A0B5-4325-922B-437200D1E8FB", 58958, 1528395187, "399231", 1528395187, "399231", null, "408487804", "2016-10-29T00:00:00", "00:00:00", "2016-11-09T00:00:00", "00:00:00", "2018-02-12T00:00:00", "125", "NYS LAWS-UNCLASSIFIED FELONY", "847.0", "NY STATE LAWS,UNCLASSIFIED FEL", "COMPLETED", "FELONY", "N.Y. POLICE DEPT", "MANHATTAN", "5", "INSIDE", "PUBLIC BUILDING", null, null, "983903.0", "200257.0", "40.716344152", "-74.001253193", [ null, "40.716344152", "-74.001253193", null, false ] ]
+  , [ 84199, "8E11E3BB-9553-4F87-895A-C71CF20B6E65", 84199, 1528395199, "399231", 1528395199, "399231", null, "782354858", "2016-10-30T00:00:00", "21:00:00", "2016-10-30T00:00:00", "21:30:00", "2018-01-23T00:00:00", "109", "GRAND LARCENY", "418.0", "LARCENY,GRAND BY ACQUIRING LOST CREDIT CARD", "COMPLETED", "FELONY", "N.Y. POLICE DEPT", "MANHATTAN", "10", "INSIDE", "RESIDENCE - APT. HOUSE", null, null, "984340.0", "216674.0", "40.76140476", "-73.999676569", [ null, "40.76140476", "-73.999676569", null, false ] ]
+  , [ 14694, "28984F7E-B66F-47BE-9992-063925CA836F", 14694, 1528395167, "399231", 1528395167, "399231", null, "689131038", "2016-11-01T00:00:00", "00:00:00", "2016-11-01T00:00:00", "23:59:00", "2018-03-20T00:00:00", "109", "GRAND LARCENY", "422.0", "LARCENY,GRAND BY OPEN CREDIT CARD (NEW ACCT)", "COMPLETED", "FELONY", "N.Y. POLICE DEPT", "MANHATTAN", "34", "INSIDE", "RESIDENCE - APT. HOUSE", null, null, "1005202.0", "253699.0", "40.863003221", "-73.924253843", [ null, "40.863003221", "-73.924253843", null, false ] ]
+  , [ 28143, "72554275-B276-421E-8FE2-9F0953C85BF7", 28143, 1528395173, "399231", 1528395173, "399231", null, "227147135", "2016-11-01T00:00:00", "09:00:00", "2018-03-09T00:00:00", "20:55:00", "2018-03-09T00:00:00", "112", "THEFT-FRAUD", "772.0", "COMPUTER TAMPER/TRESSPASS", "COMPLETED", "FELONY", "N.Y. POLICE DEPT", "MANHATTAN", "14", "INSIDE", "COMMERCIAL BUILDING", null, null, "985802.0", "213781.0", "40.753464076", "-73.994399743", [ null, "40.753464076", "-73.994399743", null, false ] ]
+  , [ 100318, "928732D7-0C3B-41A0-8699-D5837A2538AC", 100318, 1528395206, "399231", 1528395206, "399231", null, "474897504", "2016-11-01T00:00:00", "00:00:00", "2016-11-10T00:00:00", "00:00:00", "2018-01-10T00:00:00", "125", "NYS LAWS-UNCLASSIFIED FELONY", "847.0", "NY STATE LAWS,UNCLASSIFIED FEL", "COMPLETED", "FELONY", "N.Y. POLICE DEPT", "MANHATTAN", "5", "INSIDE", "PUBLIC BUILDING", null, null, "983903.0", "200257.0", "40.716344152", "-74.001253193", [ null, "40.716344152", "-74.001253193", null, false ] ]
+  , [ 90578, "9D02FED6-F738-47DD-989F-3931DCEC90B1", 90578, 1528395202, "399231", 1528395202, "399231", null, "916387187", "2016-11-08T00:00:00", "00:01:00", null, null, "2018-01-18T00:00:00", "109", "GRAND LARCENY", "437.0", "LARCENY,GRAND BY FALSE PROMISE-IN PERSON CONTACT", "COMPLETED", "FELONY", "N.Y. POLICE DEPT", "MANHATTAN", "18", "INSIDE", "JEWELRY", null, null, "990125.0", "214834.0", "40.756352479", "-73.978795614", [ null, "40.756352479", "-73.978795614", null, false ] ]
+  , [ 47504, "E5FE46EB-B6BD-43CA-80D6-D2A9AB5FD545", 47504, 1528395182, "399231", 1528395182, "399231", null, "426302247", "2016-11-16T00:00:00", "09:00:00", "2018-02-01T00:00:00", "23:59:00", "2018-02-21T00:00:00", "112", "THEFT-FRAUD", "739.0", "FRAUD,UNCLASSIFIED-FELONY", "COMPLETED", "FELONY", "N.Y. POLICE DEPT", "MANHATTAN", "13", "INSIDE", "RESIDENCE - APT. HOUSE", null, null, "987368.0", "207722.0", "40.736833222", "-73.988750312", [ null, "40.736833222", "-73.988750312", null, false ] ]
+  , [ 77349, "09A4D148-F9DE-476F-BA36-1B190B5BAEC2", 77349, 1528395196, "399231", 1528395196, "399231", null, "983019217", "2016-11-18T00:00:00", "15:00:00", "2016-11-29T00:00:00", "12:00:00", "2018-01-28T00:00:00", "109", "GRAND LARCENY", "403.0", "LARCENY,GRAND BY BANK ACCT COMPROMISE-REPRODUCED CHECK", "COMPLETED", "FELONY", "N.Y. POLICE DEPT", "MANHATTAN", "18", "INSIDE", "JEWELRY", null, null, "989741.0", "215196.0", "40.757346324", "-73.980181368", [ null, "40.757346324", "-73.980181368", null, false ] ]
+  , [ 105452, "4F2609E2-E1BD-4CCF-9CD0-49CDBF7DA1BD", 105452, 1528395209, "399231", 1528395209, "399231", null, "194247516", "2016-11-18T00:00:00", "14:00:00", "2018-01-03T00:00:00", "14:00:00", "2018-01-05T00:00:00", "344", "ASSAULT 3 & RELATED OFFENSES", "101.0", "ASSAULT 3", "COMPLETED", "MISDEMEANOR", "N.Y. POLICE DEPT", "MANHATTAN", "17", "INSIDE", "RESIDENCE - APT. HOUSE", null, null, "990598.0", "212007.0", "40.748592752", "-73.977090987", [ null, "40.748592752", "-73.977090987", null, false ] ]
+  , [ 70976, "FAEC5CA9-B4EE-4E3B-A716-928D13125BED", 70976, 1528395193, "399231", 1528395193, "399231", null, "207548593", "2016-11-20T00:00:00", "18:00:00", "2016-12-28T00:00:00", "18:00:00", "2018-02-02T00:00:00", "109", "GRAND LARCENY", "438.0", "LARCENY,GRAND FROM BUILDING (NON-RESIDENCE) UNATTENDED", "COMPLETED", "FELONY", "N.Y. HOUSING POLICE", "MANHATTAN", "19", "INSIDE", "RESIDENCE - PUBLIC HOUSING", null, null, "999557.0", "223723.0", "40.780739178", "-73.944730538", [ null, "40.780739178", "-73.944730538", null, false ] ]
+  , [ 84198, "12433C3B-9E57-4C45-BEAE-EC465D7957E0", 84198, 1528395199, "399231", 1528395199, "399231", null, "907242245", "2016-11-20T00:00:00", "12:00:00", "2016-11-26T00:00:00", "23:59:00", "2018-01-23T00:00:00", "344", "ASSAULT 3 & RELATED OFFENSES", "101.0", "ASSAULT 3", "COMPLETED", "MISDEMEANOR", "N.Y. HOUSING POLICE", "MANHATTAN", "25", "INSIDE", "RESIDENCE - PUBLIC HOUSING", null, "LINCOLN", "1001769.0", "234797.0", "40.811130194", "-73.936714506", [ null, "40.811130194", "-73.936714506", null, false ] ]
+  , [ 107341, "96F4D837-221E-49E3-BF39-BD3B5D2B336A", 107341, 1528395210, "399231", 1528395210, "399231", null, "222080635", "2016-11-29T00:00:00", "13:00:00", null, null, "2018-01-03T00:00:00", "109", "GRAND LARCENY", "422.0", "LARCENY,GRAND BY OPEN CREDIT CARD (NEW ACCT)", "COMPLETED", "FELONY", "N.Y. POLICE DEPT", "MANHATTAN", "28", "INSIDE", "DEPARTMENT STORE", null, null, "996345.0", "230977.0", "40.800654436", "-73.956315447", [ null, "40.800654436", "-73.956315447", null, false ] ]
+  , [ 15987, "2DDE510A-5FDC-4D0D-9127-F6002826D1CB", 15987, 1528395168, "399231", 1528395168, "399231", null, "154331986", "2016-12-01T00:00:00", "09:00:00", null, null, "2018-03-19T00:00:00", "112", "THEFT-FRAUD", "739.0", "FRAUD,UNCLASSIFIED-FELONY", "COMPLETED", "FELONY", "N.Y. HOUSING POLICE", "MANHATTAN", "23", "INSIDE", "RESIDENCE - PUBLIC HOUSING", null, "JOHNSON", "1000102.0", "229680.0", "40.797088584", "-73.94274858", [ null, "40.797088584", "-73.94274858", null, false ] ]
+  , [ 19562, "5B7096CD-B23F-450C-BCA6-417AF8281203", 19562, 1528395169, "399231", 1528395169, "399231", null, "360834007", "2016-12-01T00:00:00", "20:53:00", null, null, "2018-03-16T00:00:00", "121", "CRIMINAL MISCHIEF & RELATED OF", "273.0", "TAMPERING 1,CRIMINAL", "COMPLETED", "FELONY", "N.Y. TRANSIT POLICE", "MANHATTAN", "28", null, "TRANSIT - NYC SUBWAY", null, null, "999342.0", "233575.0", "40.807780622", "-73.945484727", [ null, "40.807780622", "-73.945484727", null, false ] ]
+  , [ 67544, "9E03CBA6-7C7E-4669-A4A0-F4AAECF01993", 67544, 1528395191, "399231", 1528395191, "399231", null, "256056809", "2016-12-01T00:00:00", "09:00:00", null, null, "2018-02-05T00:00:00", "341", "PETIT LARCENY", "338.0", "LARCENY,PETIT FROM BUILDING,UN", "COMPLETED", "MISDEMEANOR", "N.Y. POLICE DEPT", "MANHATTAN", "33", "INSIDE", "RESIDENCE - APT. HOUSE", null, null, "999911.0", "242928.0", "40.833450977", "-73.943407506", [ null, "40.833450977", "-73.943407506", null, false ] ]
+  , [ 74923, "477708A6-EFF2-4816-BFE7-8C6818B04469", 74923, 1528395195, "399231", 1528395195, "399231", null, "976384124", "2016-12-05T00:00:00", "16:30:00", "2018-01-25T00:00:00", "16:00:00", "2018-01-30T00:00:00", "361", "OFF. AGNST PUB ORD SENSBLTY &", "639.0", "AGGRAVATED HARASSMENT 2", "COMPLETED", "MISDEMEANOR", "N.Y. POLICE DEPT", "MANHATTAN", "18", "INSIDE", "COMMERCIAL BUILDING", null, null, "989741.0", "215196.0", "40.757346324", "-73.980181368", [ null, "40.757346324", "-73.980181368", null, false ] ]
+  , [ 44846, "A3959693-686D-4315-9BED-8A316D748B04", 44846, 1528395181, "399231", 1528395181, "399231", null, "264224310", "2016-12-07T00:00:00", "10:00:00", "2018-01-18T00:00:00", "18:00:00", "2018-02-23T00:00:00", "109", "GRAND LARCENY", "407.0", "LARCENY,GRAND BY DISHONEST EMP", "COMPLETED", "FELONY", "N.Y. POLICE DEPT", "MANHATTAN", "19", "INSIDE", "DOCTOR/DENTIST OFFICE", null, null, "993538.0", "217312.0", "40.763151029", "-73.966472956", [ null, "40.763151029", "-73.966472956", null, false ] ]
+  , [ 19561, "846EB033-815D-420F-B730-715521032EE0", 19561, 1528395169, "399231", 1528395169, "399231", null, "747461648", "2016-12-18T00:00:00", "17:35:00", null, null, "2018-03-16T00:00:00", "121", "CRIMINAL MISCHIEF & RELATED OF", "273.0", "TAMPERING 1,CRIMINAL", "COMPLETED", "FELONY", "N.Y. TRANSIT POLICE", "MANHATTAN", "28", null, "TRANSIT - NYC SUBWAY", null, null, "999342.0", "233575.0", "40.807780622", "-73.945484727", [ null, "40.807780622", "-73.945484727", null, false ] ]
+  , [ 14692, "CE87032C-DF67-4C9A-87BF-1DB27B30E6C3", 14692, 1528395167, "399231", 1528395167, "399231", null, "866767434", "2016-12-20T00:00:00", "00:01:00", "2016-12-20T00:00:00", "23:59:00", "2018-03-20T00:00:00", "233", "SEX CRIMES", "170.0", "SEXUAL MISCONDUCT,INTERCOURSE", "COMPLETED", "MISDEMEANOR", "N.Y. POLICE DEPT", "MANHATTAN", "34", "INSIDE", "RESIDENCE - APT. HOUSE", null, null, "1002106.0", "249501.0", "40.851487774", "-73.935457967", [ null, "40.851487774", "-73.935457967", null, false ] ]
+  , [ 3763, "E759CB2D-73AB-4B4D-AEBC-87031ECA93AA", 3763, 1528395162, "399231", 1528395162, "399231", null, "564595956", "2016-12-22T00:00:00", "14:00:00", "2017-01-05T00:00:00", "09:00:00", "2018-03-29T00:00:00", "109", "GRAND LARCENY", "437.0", "LARCENY,GRAND BY FALSE PROMISE-IN PERSON CONTACT", "COMPLETED", "FELONY", "N.Y. POLICE DEPT", "MANHATTAN", "6", null, "STREET", null, null, "984338.0", "208351.0", "40.738560221", "-73.999683896", [ null, "40.738560221", "-73.999683896", null, false ] ]
+  , [ 25700, "8E5B14B2-83A2-4ADB-8824-816CF52FAEAF", 25700, 1528395172, "399231", 1528395172, "399231", null, "305028278", "2016-12-23T00:00:00", "09:00:00", "2018-02-20T00:00:00", "10:00:00", "2018-03-11T00:00:00", "109", "GRAND LARCENY", "420.0", "LARCENY,GRAND BY OPEN/COMPROMISE CELL PHONE ACCT", "COMPLETED", "FELONY", "N.Y. POLICE DEPT", "MANHATTAN", "34", "INSIDE", "RESIDENCE - APT. HOUSE", null, null, "1005317.0", "255575.0", "40.868151998", "-73.923832188", [ null, "40.868151998", "-73.923832188", null, false ] ]
+  , [ 99016, "4B855EA7-69B4-4518-8A57-2E47D95A1192", 99016, 1528395206, "399231", 1528395206, "399231", null, "287419898", "2016-12-26T00:00:00", "00:01:00", "2017-01-01T00:00:00", "00:01:00", "2018-01-11T00:00:00", "351", "CRIMINAL MISCHIEF & RELATED OF", "258.0", "CRIMINAL MISCHIEF 4TH, GRAFFIT", "COMPLETED", "MISDEMEANOR", "N.Y. POLICE DEPT", "MANHATTAN", "7", null, "PARKING LOT/GARAGE (PUBLIC)", null, null, "988934.0", "200565.0", "40.717188305", "-73.983104465", [ null, "40.717188305", "-73.983104465", null, false ] ]
+   ]
+};
