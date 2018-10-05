@@ -1,0 +1,11 @@
+{
+  "accounts": [
+    {
+      "name": "Katherine Soukup",
+      "email": "ksoukup12@gmail.com",
+      "balance": 0,
+      "password": "aaa",
+      "transactions": []
+    }
+  ]
+}
