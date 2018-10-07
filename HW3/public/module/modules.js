@@ -124,7 +124,7 @@ ui.deposit = `
     <div class="form-group row">
     <label for="depositEmail" class="col-sm-2 col-form-label">Amount</label>
         <div class="col-sm-10">
-        <input type="number" class="form-control" id="depositEmail" placeholder="Amount">
+        <input type="number" class="form-control" id="depositAmount" placeholder="Amount">
         </div>
     </div>
 
