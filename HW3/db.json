@@ -3,9 +3,60 @@
     {
       "name": "Katherine Soukup",
       "email": "ksoukup12@gmail.com",
-      "balance": 0,
+      "balance": 200,
       "password": "aaa",
-      "transactions": []
+      "transactions": [
+        {
+          "date": "2018-10-05T22:21:40.549Z",
+          "amount": 100,
+          "type": "withdraw"
+        },
+        {
+          "date": "2018-10-05T22:21:40.561Z",
+          "amount": 100,
+          "type": "withdraw"
+        },
+        {
+          "date": "2018-10-05T22:21:51.407Z",
+          "amount": 1000,
+          "type": "deposit"
+        },
+        {
+          "date": "2018-10-05T22:21:51.415Z",
+          "amount": 1000,
+          "type": "deposit"
+        },
+        {
+          "date": "2018-10-07T02:52:34.575Z",
+          "amount": 100,
+          "type": "deposit"
+        },
+        {
+          "date": "2018-10-07T02:52:34.581Z",
+          "amount": 100,
+          "type": "deposit"
+        },
+        {
+          "date": "2018-10-07T03:48:20.172Z",
+          "amount": 100,
+          "type": "deposit"
+        },
+        {
+          "date": "2018-10-07T03:48:20.181Z",
+          "amount": 100,
+          "type": "deposit"
+        },
+        {
+          "date": "2018-10-07T03:48:36.572Z",
+          "amount": 1000,
+          "type": "withdraw"
+        },
+        {
+          "date": "2018-10-07T03:48:36.579Z",
+          "amount": 1000,
+          "type": "withdraw"
+        }
+      ]
     }
   ]
 }
