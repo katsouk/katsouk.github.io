@@ -130,6 +130,6 @@ app.get('/account/withdraw/:email/:amount', function (req, res) {
     res.send(accounts);
     }); 
 
-app.listen(80, function(){
-  console.log('Running on port:80');
+app.listen(3000, function(){
+  console.log('Running on port:3000');
 });
